@@ -4,7 +4,7 @@ author1: afoxman
 post_slug: announcing-react-native-developer-tools
 post_date: 2022-05-04 12:00:00
 # categories: existingcategory1, existingcategory2
-tags: launch, social, developer-tools, react-native
+tags: announcement, launch, developer-tools, react-native
 # featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
 summary: Today, we are launching a new React Native Developer Tools **community** project! These are **modern**, **scalable tools** focused on providing an **exceptional
 developer experience**.
