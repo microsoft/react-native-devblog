@@ -55,3 +55,5 @@ The tools here are used in Office, Xbox, Teams, and other product groups.
 
 Jump in with the [Getting Started](https://microsoft.github.io/rnx-kit/docs/guides/getting-started) guide, or take
 it a bit slower and read the [Introduction](https://microsoft.github.io/rnx-kit/docs/introduction) first.
+
+Remember that you can also follow us on Twitter [@ReactNativeMSFT](https://twitter.com/reactnativemsft) to keep up to date on news, feature roadmaps, and more.

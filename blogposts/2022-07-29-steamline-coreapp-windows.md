@@ -4,7 +4,7 @@ author1: asklar
 post_slug: steamline-coreapp-windows
 post_date: 2022-07-29 12:00:00
 # categories: existingcategory1, existingcategory2
-tags: windows, uwp, react-native
+tags: windows, uwp, react-native, react-native-windows
 # featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
 summary: We are introducing an API called `CoreApp` to help improve the developer experience for Windows developers.
 ---
@@ -144,3 +144,7 @@ Meanwhile the CoreApp calculator sample clocks in at a speedy 1:49!
 Look for this new API to make its debut in our 0.70 release, or try it today in our canary builds.
 
 If you have any feedback, please don't hesitate to start a conversation on the [GitHub repo](https://github.com/microsoft/react-native-windows)!
+
+If you’re interested in getting started with React Native for Windows, check out our website at [aka.ms/reactnative](https://aka.ms/reactnative).
+
+You can also follow us on Twitter [@ReactNativeMSFT](https://twitter.com/reactnativemsft) to keep up to date on news, feature roadmaps, and more.
