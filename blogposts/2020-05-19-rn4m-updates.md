@@ -10,8 +10,6 @@ tags: react-native, react-native-windows, react-native-macos, releases
 summary: "We're on React Native core version 0.62 with new community modules, native module support across multiple platforms, and of course our official public release of React Native for macOS."
 ---
 
----
-
 We're excited to announce our first preview release aligning with [React Native 0.62](https://reactnative.dev/blog/2020/03/26/version-0.62)!
 
 As a preview release, we will try our best not to make breaking changes, but still have a few bumps to sort out before we're ready for release. You can now start trying out the [0.62-preview of React Native for Windows](https://www.npmjs.com/package/react-native-windows/v/0.62.0-preview.6)!
