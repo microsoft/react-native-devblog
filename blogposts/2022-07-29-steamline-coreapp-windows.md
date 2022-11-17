@@ -3,9 +3,8 @@ post_title: "Streamlining app creation with React Native for Windows CoreApp"
 author1: asklar
 post_slug: steamline-coreapp-windows
 post_date: 2022-07-29 12:00:00
-# categories: existingcategory1, existingcategory2
+categories: react-native
 tags: windows, uwp, react-native, react-native-windows
-# featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
 summary: We are introducing an API called `CoreApp` to help improve the developer experience for Windows developers.
 ---
 
