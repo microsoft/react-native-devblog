@@ -1,11 +1,11 @@
 ---
-post_title: 'Announcing the React Native Developer Tools'
+post_title: "Announcing the React Native Developer Tools"
 author1: afoxman
 post_slug: announcing-react-native-developer-tools
 post_date: 2022-05-04 12:00:00
 categories: react-native
 tags: announcement, launch, developer-tools, react-native
-summary: Today, we are launching a new React Native Developer Tools **community** project! These are **modern**, **scalable tools** focused on providing an **exceptional developer experience**.
+summary: Today, we are launching a new React Native Developer Tools community project! These are modern, scalable tools focused on providing an exceptional developer experience.
 ---
 
 Hi! 👋
@@ -17,9 +17,7 @@ These are **modern**, **scalable tools** focused on providing an **exceptional
 developer experience**.
 
 Our hope is that this project helps you build React Native apps, and that you'll
-spread the word and share it with people you know! `#rnxkit`
-
-https://aka.ms/rnxkit
+spread the word and share it with people you know! Use the hashtag `#rnxkit` when you do your posts about it.
 
 And May the 4th be With You!
 
