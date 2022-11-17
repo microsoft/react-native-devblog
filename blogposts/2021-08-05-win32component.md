@@ -3,9 +3,8 @@ post_title: "Use Win32 features from a React Native for Windows application"
 author1: mpagani
 post_slug: win32component
 post_date: 2021-08-05 12:00:00
-# categories: existingcategory1, existingcategory2
+categories: react-native
 tags: win32, react-native, windows, react-native-windows, tutorial
-# featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
 summary: How to use Win32 features from a React Native for Windows application
 ---
 
