@@ -1,13 +1,12 @@
 ---
 post_title: "Roadmap for vnext"
 author1: stmoy
-# author1: React Native at Microsoft (?)
 post_slug: 2019-07-22-rnw-roadmap
 post_date: 2019-07-22 12:00:00
-# categories: existingcategory1, existingcategory2
+categories: react-native
 tags: react-native, react-native-windows, releases
-# featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
-summary: "A prospective roadmap for React Native for Windows vnext project (2019 through early 2020)"
+featured_image: 
+summary: A prospective roadmap for React Native for Windows vnext project (2019 through early 2020)
 ---
 
 This document outlines some context and prospective roadmap for React Native for Windows. This project is under active development by the Microsoft Developer Platform team in collaboration with Office, Xbox and other partners as well as the wider React Native community. This roadmap is not meant to be exhaustive or guaranteed since we are also keeping up with the evolving [facebook\react-native](http://facebook.github.io/react-native/) project and the needs of the React Native community.
