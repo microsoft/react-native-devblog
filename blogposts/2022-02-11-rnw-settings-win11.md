@@ -4,9 +4,8 @@ author1: stmoy
 author2: asklar
 post_slug: rnw-settings-win11
 post_date: 2022-02-11 12:00:00
-# categories: existingcategory1, existingcategory2
+categories: react-native
 tags: windows, windows-11, react-native, react-native-windows
-# featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
 summary: React Native isn’t just for mobile! Check out how the Windows 11 Settings app is leveraging React Native for Windows to deliver new features and capabilities to users faster and with the same great visual fidelity as Windows 11.
 ---
 
