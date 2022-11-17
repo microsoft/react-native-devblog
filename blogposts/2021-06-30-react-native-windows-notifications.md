@@ -3,9 +3,8 @@ post_title: "Add Toast notifications to your React Native for Windows applicatio
 author1: asklar
 post_slug: react-native-windows-notifications
 post_date: 2021-06-30 12:00:00
-# categories: existingcategory1, existingcategory2
+categories: react-native
 tags: windows, react-native, react-native-windows, tutorial, notifications
-# featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
 summary: Add Windows toast notifications to a React Native for Windows application
 ---
 
