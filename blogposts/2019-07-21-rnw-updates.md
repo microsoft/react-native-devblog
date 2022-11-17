@@ -1,13 +1,13 @@
 ---
 post_title: "July 2019 Updates"
 author1: stmoy
-# author1: React Native at Microsoft (?)
+post_status: publish
 post_slug: 2019-07-21-rnw-updates
 post_date: 2019-07-21 12:00:00
-# categories: existingcategory1, existingcategory2
+categories: react-native
 tags: react-native, react-native-windows, releases
-# featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
-summary: "New features and other updates upon Milestone 2 completion"
+featured_image: 
+summary: New features and other updates upon Milestone 2 completion
 ---
 
 Over the past couple of months and spread across several contributors from Microsoft, we have completed [Milestone 2](https://github.com/microsoft/react-native-windows/milestone/16) for React Native for Windows. This blog post covers the highlights of the release.
@@ -18,7 +18,7 @@ Over the past couple of months and spread across several contributors from Micro
 
 Both the `current` and `vnext` implementations of `react-native-windows` have been upgraded to support [React Native version 0.59](https://facebook.github.io/react-native/blog/2019/03/12/releasing-react-native-059). With this, you should be able to use the [React Hooks](https://reactjs.org/docs/hooks-intro.html) and all other goodness from the RN v0.59 update while targeting React Native for Windows.
 
-_**Note**: You will need to explicitly specify the RN version number while initializing your project using the CLI to target React Native for Windows vnext like so_:
+**Note**: You will need to explicitly specify the RN version number while initializing your project using the CLI to target React Native for Windows vnext like so_:
 
 ```
 react-native init <project name> --version 0.59.10
