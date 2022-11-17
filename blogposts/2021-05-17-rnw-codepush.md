@@ -3,10 +3,9 @@ post_title: "Using CodePush in a React Native for Windows application"
 author1: mpagani
 post_slug: rnw-codepush
 post_date: 2021-05-17 12:00:00
-# categories: existingcategory1, existingcategory2
+categories: react-native
 tags: react-native, windows, react-native-windows, tutorial
-# featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
-summary: "How to use CodePush to deliver real-time updates to your React Native for Windows application"
+summary: How to use CodePush to deliver real-time updates to your React Native for Windows application
 ---
 
 CodePush is a service built by Microsoft, now incorporated into the [Visual Studio App Center platform](https://appcenter.ms/), which provides a way for React Native and Cordova developers to be more agile in delivering updates to their applications.
