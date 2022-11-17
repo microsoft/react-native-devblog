@@ -3,9 +3,8 @@ post_title: "Add inking to your React Native for Windows application"
 author1: mpagani
 post_slug: rnw-inking
 post_date: 2021-05-25 12:00:00
-# categories: existingcategory1, existingcategory2
+categories: react-native
 tags: windows, react-native, react-native-windows, tutorial
-# featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
 summary: How to use add inking to a React Native for Windows application
 ---
 
