@@ -3,9 +3,8 @@ post_title: "Calling Windows APIs from React Native just got easier"
 author1: angzhang
 post_slug: announcing-rnwinrt
 post_date: 2022-02-11 11:00:00
-# categories: existingcategory1, existingcategory2
+categories: react-native
 tags: announcement, launch, developer-tools, react-native, windows, react-native-windows
-# featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
 summary: We are excited to announce the [React Native WinRT](http://aka.ms/reactnativewinrt) project, a new extension that makes it easier for [React Native for Windows](https://microsoft.github.io/react-native-windows/) developers to call Windows Runtime APIs directly from JavaScript!
 ---
 
