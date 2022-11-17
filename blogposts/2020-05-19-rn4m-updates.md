@@ -1,13 +1,12 @@
 ---
 post_title: "Announcing React Native for macOS and more"
 author1: stmoy
-# author1: Kiki Saintonge
 post_slug: 2020-05-19-rn4m-updates
 post_date: 2020-05-19 12:00:00
-# categories: existingcategory1, existingcategory2
+categories: react-native
 tags: react-native, react-native-windows, react-native-macos, releases
-# featured_image: https://dev.azure.com/devdiv/DevDiv/_wiki/wikis/DevDiv.wiki/10339/Drafting-in-GitHub?anchor=images
-summary: "We're on React Native core version 0.62 with new community modules, native module support across multiple platforms, and of course our official public release of React Native for macOS."
+featured_image: 
+summary: We're on React Native core version 0.62 with new community modules, native module support across multiple platforms, and of course our official public release of React Native for macOS.
 ---
 
 We're excited to announce our first preview release aligning with [React Native 0.62](https://reactnative.dev/blog/2020/03/26/version-0.62)!
