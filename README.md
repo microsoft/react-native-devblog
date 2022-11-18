@@ -10,6 +10,7 @@ Read more of how to use Markdown to deploy to the WordPress based blog [in this 
 - any edits to the post in DevBlogs will not be synced back to GitHub.
 - author username as seen in WordPress, not GitHub ID
 - on main, you need to do a one-commit-per-one-blog strategy (you can checkout the history for examples): the GH->WP tool doesn't work when you push multiple files in the same commit
+- when publishing something for the first time, the GH->WP tool will only put it as a draft on the WP side; so you need to go into the WP dashboard, all posts sections, select the new post (it will have a "- DRAFT" appended to the title), click on Edit, set the right date, then hit publish.
 
 For any further questions reach out to the editorial team.
 
