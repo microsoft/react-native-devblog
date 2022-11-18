@@ -9,6 +9,7 @@ Read more of how to use Markdown to deploy to the WordPress based blog [in this 
 - merge to main will always only create a draft to review in WordPress.
 - any edits to the post in DevBlogs will not be synced back to GitHub.
 - author username as seen in WordPress, not GitHub ID
+- on main, you need to do a one-commit-per-one-blog strategy (you can checkout the history for examples): the GH->WP tool doesn't work when you push multiple files in the same commit
 
 For any further questions reach out to the editorial team.
 
