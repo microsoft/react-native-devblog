@@ -1,6 +1,6 @@
 ---
 post_title: "Streamlining app creation with React Native for Windows CoreApp"
-author1: asklar
+author1: asklar@winse.microsoft.com
 post_slug: steamline-coreapp-windows
 post_date: 2022-07-29 12:00:00
 categories: react-native
