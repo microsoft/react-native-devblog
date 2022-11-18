@@ -1,7 +1,7 @@
 ---
 post_title: "Improve all the repos – exploring Microsoft’s DevExp [RNEU 2021]"
 author1: tonguye
-author1: lsciandra
+author2: lsciandra
 post_slug: 2021-09-03-rneu-microsoft-devexp
 post_date: 2021-09-03 12:00:00
 categories: react-native
