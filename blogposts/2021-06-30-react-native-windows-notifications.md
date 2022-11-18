@@ -195,6 +195,7 @@ private:
 
 The code above will enable us to specify a `template` attribute, that we will set to be the numeric value of the template we want to use. You can find a table of such values in the [ToastTemplateType docs](https://docs.microsoft.com/uwp/api/Windows.UI.Notifications.ToastTemplateType). For example, `ToastText01` has a value of 4, so we'd specify `template: 4`.
 It will also iterate through the rest of our JavaScript object parameter to discover the key/value pairs we want to set and apply them to the underlying XML that we will later pass to the platform.
+
 Here is how you'd use this complete version from JavaScript:
 
 ```jsx
