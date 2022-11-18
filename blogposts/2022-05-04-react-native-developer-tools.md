@@ -19,7 +19,7 @@ developer experience**.
 Our hope is that this project helps you build React Native apps, and that you'll
 spread the word and share it with people you know! Use the hashtag `#rnxkit` when you do your posts about it.
 
-And May the 4th be With You!
+(And May the 4th be With You!)
 
 ## Made by Developers, for Developers
 
