@@ -1,6 +1,7 @@
 ---
 post_title: "Calling Windows APIs from React Native just got easier"
 author1: angzhang
+author2: asklar@winse.microsoft.com
 post_slug: announcing-rnwinrt
 post_date: 2022-02-11 11:00:00
 categories: react-native
