@@ -1,7 +1,7 @@
 ---
 post_title: "React Native for Windows is helping Settings improve more quickly"
 author1: stmoy
-author2: asklar
+author2: asklar@winse.microsoft.com
 post_slug: rnw-settings-win11
 post_date: 2022-02-11 12:00:00
 categories: react-native
