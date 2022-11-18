@@ -10,14 +10,9 @@ featured_image: assets/featured-images/rneu-microsoft-devexp.png
 summary: Recording of the talk by Lorenzo Sciandra & Tommy Nguyen at React Native Europe 2021, about Microsoft's tooling to improve the developer experience for React Native developers.
 ---
 
-https://www.youtube.com/watch?v=DAEnPV78rQc
-
 <p align="center">
-[iframe src="https://www.youtube.com/watch?v=DAEnPV78rQc" width="320" height="240"]
+https://www.youtube.com/watch?v=DAEnPV78rQc
 </p>
-
-<iframe width="320" height="240" src="https://www.youtube.com/embed/hLFyycJVo0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
 
 ### Abstract
 
