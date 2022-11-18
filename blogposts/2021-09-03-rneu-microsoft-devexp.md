@@ -17,7 +17,7 @@ https://www.youtube.com/watch?v=DAEnPV78rQc
 Microsoft is big. Like, REALLY BIG. This means 100s of engineers working in their huge monorepos, and React Native experiences being thrown around across them... how can this even work? How do you improve, coordinate, remove frictions for so many codebases?
 In this talk, we will dive a bit deeper on the technical side to present you some of the unique challenges we face at the MS scale, and introduce you to some of our custom tooling – who knows, maybe it will be helpful for you too?
 
-[Find the slides here](https://speakerdeck.com/kelset/improve-all-the-repos-exploring-microsofts-devexp)
+[Find the slides here](https://speakerdeck.com/kelset/improve-all-the-repos-exploring-microsofts-devexp).
 
 ---
 
