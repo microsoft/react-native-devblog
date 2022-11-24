@@ -45,7 +45,7 @@ Besides the new name, the most obvious change you'll notice when upgrading to `a
 }
 ```
 
-To support more scenarios, we have to generalize this to arbitrary packages. Starting with `align-deps`, the equivalent configuration will look like below:
+To support more scenarios, we have to generalize this to support arbitrary packages. Starting with `align-deps`, the equivalent configuration will look like below:
 
 ```json
 // 2.0
@@ -71,19 +71,19 @@ To support more scenarios, we have to generalize this to arbitrary packages. Sta
 
 Let's break down the changes:
 
-- **Config has moved into `rnx-kit.alignDeps`** — This keeps things more consistent with the rest of the [tools](https://microsoft.github.io/rnx-kit/docs/tools/overview) we have built, and avoids potential clashes with other tools we might build in the future.
+- **Config has moved into `rnx-kit.alignDeps`** — this keeps things more consistent with the rest of the [tools](https://microsoft.github.io/rnx-kit/docs/tools/overview) we have built, and avoids potential clashes with other tools we might build in the future.
 
-- **`reactNativeVersion` and `reactNativeDevVersion` have been replaced by `requirements`** — Under `requirements`, you can now require arbitrary packages. We've used `react-native` here, but you could require `react@18` or `jest@29`. If you have different requirements for development and production, you can declare them separately as seen in the example above.
+- **`reactNativeVersion` and `reactNativeDevVersion` have been replaced by `requirements`** — under `requirements`, you can now require arbitrary packages. We've used `react-native` here, but you could require `react@18` or `jest@29`. If you have different requirements for development and production, you can declare them separately as seen in the example above.
 
-- **`customProfiles` is now `presets`** — Previously, you could only specify a single preset to augment the default one. With the new config schema, you can now list any number of presets, and even exclude the built-in one! This opens up for completely custom presets, and for built-in community presets (like this preset that [only includes new-arch compatible libraries](https://github.com/microsoft/rnx-kit/pull/1877)). As before, this flag is entirely _optional_. If you omit it, the default built-in preset, `microsoft/react-native`, will be used.
+- **`customProfiles` is now `presets`** — previously, you could only specify a single preset to augment the default one. With the new config schema, you can now list any number of presets, and even exclude the built-in one! This opens up for completely custom presets, and for built-in community presets (like this preset that [only includes new-arch compatible libraries](https://github.com/microsoft/rnx-kit/pull/1877)). As before, this flag is entirely _optional_. If you omit it, the default built-in preset, `microsoft/react-native`, will be used.
 
 Note that `align-deps` will automatically migrate your existing configs if you add `--migrate-config` when you run it. The old configuration will still work, but it is officially deprecated.
 
 Further, to keep things consistent, we also had to make equivalent changes to a couple of command line flags:
 
-- **`--vigilant` is replaced with `--requirements`** — To support requiring arbitrary packages, you will have to spell out `react-native` (or other package names). You should be able to replace `--vigilant <versions>` with `--requirements react-native@<versions>`.
+- **`--vigilant` is replaced with `--requirements`** — to support requiring arbitrary packages, you will have to spell out `react-native` (or other package names). You should be able to replace `--vigilant <versions>` with `--requirements react-native@<versions>`.
 
-- **`--custom-profiles` is replaced with `--presets`** — If you were specifying custom profiles on the command line, you should be able to replace `--custom-profiles <path>` with `--presets microsoft/react-native,<path>`.
+- **`--custom-profiles` is replaced with `--presets`** — if you were specifying custom profiles on the command line, you should be able to replace `--custom-profiles <path>` with `--presets microsoft/react-native,<path>`.
 
 Other command line flags have not been changed in any significant ways.
 
