@@ -1,0 +1,42 @@
+name: Pitch an idea 💡
+description: Propose a blogpost idea for the devblog
+title: "[Pitch]: "
+labels: ["pitch"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this pitch proposal! The editorial team will use these information to review your pitch.
+  - type: textarea
+    id: pitch-title
+    attributes:
+      label: What's the title that you are thinking of for your blogpost?
+      description: We can change it later, but give us an idea for the title
+      placeholder: The title of my awesome blog post!
+    validations:
+      required: true
+  - type: textarea
+    id: pitch-text
+    attributes:
+      label: What is your blogpost about?
+      description: Tell us what you want to talk about, and what key concepts you want the audience to learn.
+      placeholder: The main content for my awesome blog post!
+  - type: textarea
+    id: pitch-inspirations
+    attributes:
+      label: Any inspirations?
+      description: Is this blogpost inspired by some projects or other content? Please put relevant links here.
+      placeholder: The main inspirations for my awesome blog post!
+  - type: textarea
+    id: pitch-other
+    attributes:
+      label: Anything else we need to know about it?
+      description: Any other info that you think might be relevant for the editorial team to know.
+      placeholder: Some other good to know information about my awesome blog post!
+  - type: checkboxes
+    id: pitch-author
+    attributes:
+      label: First time author?
+      description: If you are a first-time writer for this blogpost, let us know, as there are some one-off steps we'll have to go through.
+      options:
+        - label: Yes, it's my first time writing for this devblog.
