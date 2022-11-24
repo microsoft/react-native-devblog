@@ -87,7 +87,7 @@ Further, to keep things consistent, we also had to make equivalent changes to a 
 
 Other command line flags have not been changed in any significant ways.
 
-We've also improved error messages in a number of places to make it more obvious what went wrong where. These can always be improved so feel free to file issues if things are unclear.
+We've also improved error messages in a number of places to make it more obvious what went wrong where. These can always be improved so feel free to file issues if things are still unclear.
 
 If you're curious about how the new changes work, have a read through the [RFC](https://github.com/microsoft/rnx-kit/blob/rfcs/text/0001-dep-check-v2.md#summary).
 
