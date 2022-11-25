@@ -29,12 +29,15 @@ That's because `align-deps` will support the old `dep-check` style configuration
 
 To help you with the migration of the configuration (learn more in the next sections), we have even made a dedicated command that will automagically migrate your existing dep-check v1 config: once you have installed `align-deps` in your dependendencies, run `yarn rnx-align-deps --migrate-config` and the tool will take care of modifying your package.json accordingly to the new V2 configuration.
 
-##
+## Why the rename?
 
-- [LORENZO] why did you rename it
-  - depcheck so having dep-check and depcheck running in the same monorepo wasn't ideal
-  - also, new name is better suited, more direct in explaining what the tool does - we don't only check deps but we literally also align them for you, and keep them aligned in your CI
-  - (ofc, new name doesn't have any name clashes https://www.npmjs.com/search?q=align-deps)
+One glaring difference between 1.x and 2.x is indeed the name: from `dep-check` to `align-deps`.
+
+While there are multiple reasons for this, the one that influenced us the most is name-clashing: there is a different tool used in monorepo scenarios called [`depcheck`](https://github.com/depcheck/depcheck) (with an entirely different, yet still great, set of features) and we only realized when, internally, we ended up having both running in the same codebase. As you can imagine, having `depcheck` and `dep-check` in the same repo can lead to confusion.
+
+It wasn't just that though: the new name is actually better reflective of the purpose of the tool - it's not only **checking** what goes on with your dependencies, but actively **aligning** them for you via the CLI.
+
+...and yes, the new name doesn't have [any clashes](https://www.npmjs.com/search?q=align-deps).
 
 ## What changes did we make?
 
