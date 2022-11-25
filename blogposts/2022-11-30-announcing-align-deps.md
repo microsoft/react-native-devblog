@@ -87,7 +87,7 @@ Let's break down the changes:
 
 - **`customProfiles` is now `presets`** — previously, you could only specify a single preset to augment the default one. With the new config schema, you can now list any number of presets, and even exclude the built-in one! This opens up for completely custom presets, and for built-in community presets (like this preset that [only includes new-arch compatible libraries](https://github.com/microsoft/rnx-kit/pull/1877)). As before, this flag is entirely _optional_. If you omit it, the default built-in preset, `microsoft/react-native`, will be used.
 
-*Remember that `align-deps` will automatically migrate your existing configs if you add `--migrate-config` when you run it. The old configuration will still work, but it is officially deprecated.*
+_Remember that `align-deps` will automatically migrate your existing configs if you add `--migrate-config` when you run it. The old configuration will still work, but it is officially deprecated._
 
 Further, to keep things consistent, we also had to make equivalent changes to a couple of command line flags:
 
@@ -97,7 +97,7 @@ Further, to keep things consistent, we also had to make equivalent changes to a 
 
 Other command line flags have not been changed in any significant ways. Overall, if you are curious about how the new changes work, have a read through the [RFC](https://github.com/microsoft/rnx-kit/blob/rfcs/text/0001-dep-check-v2.md#summary) where we originally discussed this new approach.
 
-We've also improved error messages in a number of places to make it more obvious what went wrong where. There is always more that can be improved, so feel free to [file an issues](https://github.com/microsoft/rnx-kit/issues/new/choose) or tell us about your experience and ideas [with a discussion](https://github.com/microsoft/rnx-kit/discussions).
+We've also improved error messages in a number of places to make it more obvious what went wrong where. There is always more that can be improved, so feel free to [file an issue](https://github.com/microsoft/rnx-kit/issues/new/choose) or tell us about your experience and ideas [with a discussion](https://github.com/microsoft/rnx-kit/discussions).
 
 ## Concluding
 
@@ -106,6 +106,8 @@ As you can see, we went the extra mile with `align-deps`: we streamlined it, mak
 We are already seeing great usage across some key monorepos within Microsoft, and we hope that our tool will benefit the entire community; both directly via its [open source nature](https://github.com/microsoft/rnx-kit/tree/main/packages/align-deps), and indirectly via the possibility for teams to create [their own custom profile](https://microsoft.github.io/rnx-kit/docs/guides/dependency-management#customization) to share with the rest of the ecosystem!
 
 We are committed in making it a foundational stone for the community developer experience, and you can learn about some interesting ideas for the future and how it might [help migrating to the new architecture](https://github.com/microsoft/rnx-kit/issues/1863) in the rnx-kit repository. Feel free to share your ideas and experiences there too!
+
+We cannot wait to hear your experience with `align-deps` - happy coding!
 
 ---
 
