@@ -25,9 +25,9 @@ If you are a new user, you can get started by heading over to [the our Basics do
 
 If you are already using `dep-check`, we made sure to make the transition to this new stage as smooth as we can: first off, upgrading from dep-check 1.x to align-deps 2.x literally only requires you to change the dependency in your package.json to `@rnx-kit/align-deps` (click here to see the [latest version available](https://github.com/microsoft/rnx-kit/releases)).
 
-That's because `align-deps` will support the old `dep-check` style configuration structure for some time still, to help you migrate at your own pace - but please consider it **deprecated**. To help you with the migration of the configuration (learn more in the next sections), we have even made a dedicated command that will automagically migrate your existing dep-check v1 config!
+That's because `align-deps` will support the old `dep-check` style configuration structure for some time still, to help you migrate at your own pace - but please consider it **deprecated**.
 
-Once you have set `align-deps` in your dependendencies, by running `yarn rnx-align-deps --migrate-config` and the tool will take care of modifying your package.json accordingly.
+To help you with the migration of the configuration (learn more in the next sections), we have even made a dedicated command that will automagically migrate your existing dep-check v1 config: once you have installed `align-deps` in your dependendencies, run `yarn rnx-align-deps --migrate-config` and the tool will take care of modifying your package.json accordingly to the new V2 configuration.
 
 ##
 
