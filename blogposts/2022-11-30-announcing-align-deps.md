@@ -9,11 +9,15 @@ tags: announcement, launch, developer-tools, react-native, dependencies
 summary: Today, we are announcing a huge upgrade to our tool for dependencies alignment - formerly known as dep-check, its 2.0 version brings big changes and a rename; let's all welcome align-deps!
 ---
 
-##
+Let's get the obvious out of the way first: yes, we moved the rnx-kit blog - welcome to the official React Native's Microsoft DevBlog!
 
-- [LORENZO] small intro / tldr
-  - call out the devblog, we're renaming dep-check and making it more better and more generic and more customizable
-  - what is dep-check/align-deps all about (key features and/or just a link to the docs with clear explanation)
+In this new place, you will be able to find all the content Microsoft has been putting out over the years around React Native, to streamline your ability to learn about the impact and work we have been doing. Bookmark this website or subscribe to the [RSS feed](https://devblogs.microsoft.com/react-native/feed/) to keep up-to-date with all the new blogposts and announcements.
+
+In itself, that's already pretty exciting, but today we are even more excited to introduce you the next iteration of our dependency aligner tool: formerly known as dep-check, please welcome `align-deps`!
+
+In case you are in a rush and can't be bothered to read the whole thing, here's a quick tl;dr: `align-deps` is the 2.0 iteration of `dep-check`. It allows you to keep your dependencies on the right version based on requirements, by leveraging presets of rules. It also has a CLI component, so you can wire it up to your CI and ensure that noone in your repo (or monorepo!) will inadvertently introduce the incompatible version and break the devloop. Migrating is to the new version is easy as pie, and we have big plans for its future!
+
+For more details, read below or go to [the dedicated documentation](https://microsoft.github.io/rnx-kit/docs/guides/dependency-management). Did I mention that it's [open source too](https://github.com/microsoft/rnx-kit/tree/main/packages/align-deps)?
 
 ##
 
