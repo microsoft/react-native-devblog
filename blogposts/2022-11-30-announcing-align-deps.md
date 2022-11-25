@@ -37,11 +37,11 @@ While there are multiple reasons for this, the one that influenced us the most i
 
 It wasn't just that though: the new name is actually better reflective of the purpose of the tool - it's not only **checking** what goes on with your dependencies, but actively **aligning** them for you via the CLI.
 
-...and yes, the new name doesn't have [any clashes](https://www.npmjs.com/search?q=align-deps).
+And yes, the new name doesn't have [any clashes](https://www.npmjs.com/search?q=align-deps)... as of today, at least.
 
 ## What changes did we make?
 
-Besides the new name, the most obvious change you'll notice when upgrading to `align-deps` is the config schema. We've gotten requests from multiple teams wanting to use the tool in more scenarios outside of React Native. The configuration schema in `dep-check` is centered around React Native. This is evident in the example below:
+Besides the new name, the most obvious change you'll notice when upgrading to `align-deps` is the config schema. We've gotten requests from multiple teams wanting to use the tool in more scenarios **outside** of React Native. Indeed, the configuration schema in `dep-check` is centered around React Native. This is evident in the example below:
 
 ```json
 // 1.0
@@ -55,7 +55,7 @@ Besides the new name, the most obvious change you'll notice when upgrading to `a
 }
 ```
 
-To support more scenarios, we have to generalize this to support arbitrary packages. Starting with `align-deps`, the equivalent configuration will look like below:
+To support a more agnostic scenario, we have to generalize this to support arbitrary packages. Starting with `align-deps`, the equivalent configuration will look like below:
 
 ```json
 // 2.0
@@ -81,13 +81,13 @@ To support more scenarios, we have to generalize this to support arbitrary packa
 
 Let's break down the changes:
 
-- **Config has moved into `rnx-kit.alignDeps`** — this keeps things more consistent with the rest of the [tools](https://microsoft.github.io/rnx-kit/docs/tools/overview) we have built, and avoids potential clashes with other tools we might build in the future.
+- **Config has moved into `rnx-kit.alignDeps`** — this keeps things more consistent with the rest of the [tools](https://microsoft.github.io/rnx-kit/docs/tools/overview) we have built, and avoids potential clashes with other ones we might build in the future.
 
-- **`reactNativeVersion` and `reactNativeDevVersion` have been replaced by `requirements`** — under `requirements`, you can now require arbitrary packages. We've used `react-native` here, but you could require `react@18` or `jest@29`. If you have different requirements for development and production, you can declare them separately as seen in the example above.
+- **`reactNativeVersion` and `reactNativeDevVersion` have been replaced by `requirements`** — under `requirements`, you can now require arbitrary packages. We've used `react-native` here, but you could require `react@18` or `jest@29`. If you have different requirements for development and production, you can declare them separately - as seen in the example above.
 
 - **`customProfiles` is now `presets`** — previously, you could only specify a single preset to augment the default one. With the new config schema, you can now list any number of presets, and even exclude the built-in one! This opens up for completely custom presets, and for built-in community presets (like this preset that [only includes new-arch compatible libraries](https://github.com/microsoft/rnx-kit/pull/1877)). As before, this flag is entirely _optional_. If you omit it, the default built-in preset, `microsoft/react-native`, will be used.
 
-Note that `align-deps` will automatically migrate your existing configs if you add `--migrate-config` when you run it. The old configuration will still work, but it is officially deprecated.
+*Remember that `align-deps` will automatically migrate your existing configs if you add `--migrate-config` when you run it. The old configuration will still work, but it is officially deprecated.*
 
 Further, to keep things consistent, we also had to make equivalent changes to a couple of command line flags:
 
@@ -95,20 +95,17 @@ Further, to keep things consistent, we also had to make equivalent changes to a 
 
 - **`--custom-profiles` is replaced with `--presets`** — if you were specifying custom profiles on the command line, you should be able to replace `--custom-profiles <path>` with `--presets microsoft/react-native,<path>`.
 
-Other command line flags have not been changed in any significant ways.
+Other command line flags have not been changed in any significant ways. Overall, if you are curious about how the new changes work, have a read through the [RFC](https://github.com/microsoft/rnx-kit/blob/rfcs/text/0001-dep-check-v2.md#summary) where we originally discussed this new approach.
 
-We've also improved error messages in a number of places to make it more obvious what went wrong where. These can always be improved so feel free to file issues if things are still unclear.
+We've also improved error messages in a number of places to make it more obvious what went wrong where. There is always more that can be improved, so feel free to [file an issues](https://github.com/microsoft/rnx-kit/issues/new/choose) or tell us about your experience and ideas [with a discussion](https://github.com/microsoft/rnx-kit/discussions).
 
-If you're curious about how the new changes work, have a read through the [RFC](https://github.com/microsoft/rnx-kit/blob/rfcs/text/0001-dep-check-v2.md#summary).
+## Concluding
 
-##
+As you can see, we went the extra mile with `align-deps`: we streamlined it, make it more powerful and customizable, and provided a smooth transition path.
 
-- [LORENZO] conclusions
-  - align-deps is a great new step in our effort of making RN's DX better for everyone
-    - remember, <call to action to upgrade again>
-  - we are already seeing great usage of it across Microsoft
-  - we are commited in making it a foundatational stone for the community, remember that you can be a part of it in our discussion section (also mention to use the issue section of the repo)
-- [LORENZO] happy coding!
+We are already seeing great usage across some key monorepos within Microsoft, and we hope that our tool will benefit the entire community; both directly via its [open source nature](https://github.com/microsoft/rnx-kit/tree/main/packages/align-deps), and indirectly via the possibility for teams to create [their own custom profile](https://microsoft.github.io/rnx-kit/docs/guides/dependency-management#customization) to share with the rest of the ecosystem!
+
+We are committed in making it a foundational stone for the community developer experience, and you can learn about some interesting ideas for the future and how it might [help migrating to the new architecture](https://github.com/microsoft/rnx-kit/issues/1863) in the rnx-kit repository. Feel free to share your ideas and experiences there too!
 
 ---
 
