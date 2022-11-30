@@ -15,7 +15,7 @@ In this new place, you will be able to find all the content Microsoft has been p
 
 In itself, that's already pretty exciting, but today we are even more excited to introduce you the next iteration of our dependency aligner tool: formerly known as dep-check, please welcome `align-deps`!
 
-In case you are in a rush and can't be bothered to read the whole thing, here's a quick **tl;dr**: `align-deps` is the 2.0 iteration of `dep-check`. It allows you to keep your dependencies on the right version based on requirements, by leveraging presets of rules. It also has a CLI, so you can wire it up to your CI and ensure that noone in your repo (or monorepo!) will inadvertently introduce incompatible versions of packages and break the devloop. Migrating is to the new version is easy as pie, and we have big plans for its future!
+In case you are in a rush and can't be bothered to read the whole thing, here's a quick **tl;dr**: `align-deps` is the 2.0 iteration of `dep-check`. It allows you to keep your dependencies on the right version based on requirements, by leveraging presets of rules. It also has a CLI, so you can wire it up to your CI and ensure that noone in your repo (or monorepo!) will inadvertently introduce incompatible versions of packages and break the devloop. Migrating to the new version is easy as pie, and we have big plans for its future!
 
 For more details, read below or go to [the dedicated documentation](https://microsoft.github.io/rnx-kit/docs/guides/dependency-management). Did I mention that it's [open source too](https://github.com/microsoft/rnx-kit/tree/main/packages/align-deps)?
 
