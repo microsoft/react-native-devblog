@@ -21,7 +21,7 @@ For more details, read below or go to [the dedicated documentation](https://micr
 
 ## How do I start using it?
 
-If you are a new user, you can get started by heading over to [the our Basics documentation](https://microsoft.github.io/rnx-kit/docs/dependencies) to set up the configuration; then come back here, and go straight for the conclusions to get an idea of what the future looks like!
+If you are a new user, you can get started by heading over to [the our Basics documentation](https://microsoft.github.io/rnx-kit/docs/dependencies) to set up the configuration; then come back here, and go straight to the conclusions to get an idea of what the future looks like!
 
 If you are already using `dep-check`, we made sure to make the transition to this new stage as smooth as we can: first off, upgrading from dep-check 1.x to align-deps 2.x literally only requires you to change the dependency in your package.json to `@rnx-kit/align-deps` (click here to see the [latest version available](https://github.com/microsoft/rnx-kit/releases)).
 
