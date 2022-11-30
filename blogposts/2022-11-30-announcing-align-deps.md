@@ -13,19 +13,19 @@ Let's get the obvious out of the way first: yes, we moved the rnx-kit blog - wel
 
 In this new place, you will be able to find all the content Microsoft has been putting out over the years around React Native, to streamline your ability to learn about the impact and work we have been doing. Bookmark this website or subscribe to the [RSS feed](https://devblogs.microsoft.com/react-native/feed/) to keep up-to-date with all the new blogposts and announcements.
 
-In itself, that's already pretty exciting, but today we are even more excited to introduce you the next iteration of our dependency aligner tool: formerly known as dep-check, please welcome `align-deps`!
+In itself, that's already pretty exciting, but today we are even more excited to introduce to you the next iteration of our dependency aligner tool: formerly known as dep-check, please welcome `align-deps`!
 
 In case you are in a rush and can't be bothered to read the whole thing, here's a quick **tl;dr**: `align-deps` is the 2.0 iteration of `dep-check`. It allows you to keep your dependencies on the right version based on requirements, by leveraging presets of rules. It also has a CLI, so you can wire it up to your CI and ensure that noone in your repo (or monorepo!) will inadvertently introduce incompatible versions of packages and break the devloop. Migrating to the new version is easy as pie, and we have big plans for its future!
 
-For more details, read below or go to [the dedicated documentation](https://microsoft.github.io/rnx-kit/docs/guides/dependency-management). Did I mention that it's [open source too](https://github.com/microsoft/rnx-kit/tree/main/packages/align-deps)?
+For more details, read below or go to [the dedicated documentation](https://microsoft.github.io/rnx-kit/docs/guides/dependency-management). Did we mention that it's [open source too](https://github.com/microsoft/rnx-kit/tree/main/packages/align-deps)?
 
 ## How do I start using it?
 
 If you are a new user, you can get started by heading over to [the our Basics documentation](https://microsoft.github.io/rnx-kit/docs/dependencies) to set up the configuration; then come back here, and go straight to the conclusions to get an idea of what the future looks like!
 
-If you are already using `dep-check`, we made sure to make the transition to this new stage as smooth as we can: first off, upgrading from dep-check 1.x to align-deps 2.x literally only requires you to change the dependency in your package.json to `@rnx-kit/align-deps` (click here to see the [latest version available](https://github.com/microsoft/rnx-kit/releases)).
+If you are already using `dep-check`, we made sure to make the transition to this new stage as smooth as we can: first off, upgrading from dep-check 1.x to align-deps 2.x literally only requires you to change the dependency in your package.json to `@rnx-kit/align-deps` (click here to see the [latest version available](https://www.npmjs.com/package/@rnx-kit/align-deps?activeTab=versions)).
 
-That's because `align-deps` will support the old `dep-check` style configuration structure for some time still, to help you migrate at your own pace - but please consider it **deprecated**.
+That's because `align-deps` will support the old `dep-check` style configuration structure for some time still, to help you migrate at your own pace — but please consider it **deprecated**.
 
 To help you with the migration of the configuration (learn more in the next sections), we have even made a dedicated command that will automagically migrate your existing dep-check v1 config: once you have installed `align-deps` in your dependendencies, run `yarn rnx-align-deps --migrate-config` and the tool will take care of modifying your package.json accordingly to the new V2 configuration.
 
@@ -101,9 +101,9 @@ We've also improved error messages in a number of places to make it more obvious
 
 ## Concluding
 
-As you can see, we went the extra mile with `align-deps`: we streamlined it, make it more powerful and customizable, and provided a smooth transition path.
+As you can see, we went the extra mile with `align-deps`: we streamlined it, made it more powerful and customizable, and provided a smooth transition path.
 
-We are already seeing great usage across some key monorepos within Microsoft, and we hope that our tool will benefit the entire community; both directly via its [open source nature](https://github.com/microsoft/rnx-kit/tree/main/packages/align-deps), and indirectly via the possibility for teams to create [their own custom profile](https://microsoft.github.io/rnx-kit/docs/guides/dependency-management#customization) to share with the rest of the ecosystem!
+We are already seeing great usage across some key monorepos within Microsoft, and we hope that our tool will benefit the entire community; both directly via its [open source nature](https://github.com/microsoft/rnx-kit/tree/main/packages/align-deps), and indirectly via the possibility for teams to create [their own custom presets](https://microsoft.github.io/rnx-kit/docs/guides/dependency-management#customization) to share with the rest of the ecosystem!
 
 We are committed in making it a foundational stone for the community developer experience, and you can learn about some interesting ideas for the future and how it might [help migrating to the new architecture](https://github.com/microsoft/rnx-kit/issues/1863) in the rnx-kit repository. Feel free to share your ideas and experiences there too!
 
