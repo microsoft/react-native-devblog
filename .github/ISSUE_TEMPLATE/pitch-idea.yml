@@ -8,6 +8,14 @@ body:
       value: |
         Thanks for taking the time to fill out this pitch proposal! The editorial team will use these information to review your pitch.
   - type: textarea
+    id: pitch-team
+    attributes:
+      label: What team are you from?
+      description: We just need this to help navigate the org charts
+      placeholder: I'm part of the XXX team in XXX org.
+    validations:
+      required: true
+  - type: textarea
     id: pitch-title
     attributes:
       label: What's the title that you are thinking of for your blogpost?
