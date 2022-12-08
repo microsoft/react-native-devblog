@@ -1,6 +1,6 @@
 # React Native devblog
 
-This **private** repository serves as the backbone of the official [React Native DevBlog](https://devblogs.microsoft.com/react-native/).
+This **public** repository serves as the backbone of the official [React Native DevBlog](https://devblogs.microsoft.com/react-native/).
 
 The editorial team is currently composed by [Ryan Haning](https://github.com/rhaning), [Steven Moyes](https://github.com/stmoy), [Lorenzo Sciandra](https://github.com/kelset), [Adam Foxman](https://github.com/afoxman).
 
@@ -21,6 +21,8 @@ Let's dive a bit more into each step:
 We want to empower everyone at Microsoft to be able to create content for the React Native DevBlog; in order to do so, we have prepared an issue template for [pitching ideas and proposing content](https://github.com/microsoft/react-native-devblog/issues/new?assignees=&labels=pitch&template=pitch-idea.yml&title=%5BPitch%5D%3A+) that the author would like to work on.
 
 First time authors **need** to pitch their idea via this method. Recurring authors can jump directly to step #3 if they feel their proposal is solid, but we'd suggest to still go first via an issue for pitching.
+
+Please remember that since this repository is public, all the information you will be sharing in your pitch should be shareable with the general public! If there are aspects of your idea that you might want to pre-discuss privately first, reach out to the editorial team.
 
 ### 2. Idea gets approved
 
