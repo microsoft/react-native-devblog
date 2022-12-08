@@ -26,7 +26,7 @@ Please remember that since this repository is public, all the information you wi
 
 ### 2. Idea gets approved
 
-Once the editorial team has been able to review the idea and approve it, the author will be added to the [RNDevBlog Writers](https://github.com/orgs/microsoft/teams/rndevblog-writers) GitHub team. This is needed to get write access to the repo: since it is a private repo we can't allow for forks, authors will be expected to create branches to submit PRs.
+Once the editorial team has been able to review the idea and approve it, the author will be added to the [RNDevBlog Writers](https://github.com/orgs/microsoft/teams/rndevblog-writers) GitHub team.
 
 The author will also be asked to join the [Wordpress Instance](https://devblogs.microsoft.com/react-native/wp-admin/users.php) and setup their author profile over there; the username in Wordpress is needed for the author metadata field (see in the next section).
 
