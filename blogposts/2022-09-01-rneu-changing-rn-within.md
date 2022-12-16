@@ -22,3 +22,4 @@ React Native has been used across Microsoft a lot, over the last few years. Only
 ---
 
 Remember that you can also follow us on Twitter [@ReactNativeMSFT](https://twitter.com/reactnativemsft) to keep up to date on news, feature roadmaps, and more.
+
