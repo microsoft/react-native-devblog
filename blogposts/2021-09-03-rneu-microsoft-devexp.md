@@ -1,12 +1,12 @@
 ---
-post_title: "Improve all the repos – exploring Microsoft’s DevExp [RNEU 2021]"
+post_title: "RNEU 2021: Lorenzo Sciandra & Tommy Nguyen - Improve all the repos – exploring Microsoft’s DevExp"
 author1: tonguye
 author2: lsciandra
 post_slug: 2021-09-03-rneu-microsoft-devexp
 post_date: 2021-09-03 12:00:00
 categories: react-native
 tags: talk, conference, react-native-europe, developer-tools, react-native
-featured_image: assets/featured-images/rneu-microsoft-devexp.png
+featured_image: assets/featured-images/2021-09-03-rneu-microsoft-devexp.jpg
 summary: Recording of the talk by Lorenzo Sciandra & Tommy Nguyen at React Native Europe 2021, about Microsoft's tooling to improve the developer experience for React Native developers.
 ---
 
