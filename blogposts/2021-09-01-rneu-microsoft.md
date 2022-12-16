@@ -10,7 +10,7 @@ summary: Recording of the talk by Khalef Hosany at React Native Europe 2021, abo
 ---
 
 <p align="center">
-https://www.youtube.com/watch?v=DAEnPV78rQc
+https://www.youtube.com/watch?v=r7yKet5dga4
 </p>
 
 ### Abstract
