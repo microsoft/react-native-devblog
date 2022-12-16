@@ -24,3 +24,4 @@ In this talk, we will dive a bit deeper on the technical side to present you som
 ---
 
 Remember that you can also follow us on Twitter [@ReactNativeMSFT](https://twitter.com/reactnativemsft) to keep up to date on news, feature roadmaps, and more.
+
