@@ -4,7 +4,7 @@ author1: stmoy
 author1: sstipic
 author1: smian
 post_slug: 2022-09-02-rneu-microsoft-billions
-post_date: 2022-09-01 12:00:00
+post_date: 2022-09-02 12:00:00
 categories: react-native
 tags: talk, conference, react-native-europe, react-native
 featured_image: assets/featured-images/2022-09-02-rneu-microsoft-billions.jpg
