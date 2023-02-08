@@ -26,7 +26,7 @@ One of the most common testing frameworks to use with React Native apps is [Jest
 
 To begin, I followed Jest's [Getting Started](https://jestjs.io/docs/tutorial-react-native) guide for adding testing to React Native apps. This gave me a good overview of potential Jest configurations/customizations, how to write a simple snapshot test, and information on snapshot reference files.
 
-Writing snapshot tests in Jest is fairly simple. Once you have your `App-test.js` file, you'll want to import the desired component that you want to snapshot and write a test case. Here is an example snippet from React Native Gallery's testing of its Button component page:
+Writing snapshot tests in Jest is fairly simple. Once you have your `App-test.js` file, you'll want to import the desired component that you want to snapshot and write a test case. Here is an example [snippet](https://github.com/microsoft/react-native-gallery/blob/main/__tests__/App-test.js#L46-L49) from React Native Gallery's testing of its Button component page:
 ```js
 import {ButtonExamplePage} from '../src/examples/ButtonExamplePage';
 
@@ -48,7 +48,7 @@ require('react-native-permissions/mock'),
 ```
 If the community module does not have a mock.js file, you'll have to mock the undefined function yourself. There are a couple ways to sleuth out how to correctly mock: 
 	1. Check the community module source. If they have an example app with Jest testing, what do they do in their `jest-setup.js` file?
-	2. You can also check postings from the community on how they mocked particular methods for a given module.
+	2. You can also check forum posts from the community on how they mocked particular methods for a given module.
 	3. React Native Gallery has a wide set of community modules it has tests for. Check out our [`jest-setup.js`](https://github.com/microsoft/react-native-gallery/blob/main/jest-setup.js) to see how we mocked needed modules. 
 
 Here is React Native Gallery's Jest customization within [`package.json`](https://github.com/microsoft/react-native-gallery/blob/main/package.json):
@@ -67,7 +67,7 @@ Here is React Native Gallery's Jest customization within [`package.json`](https:
   },
 ```
 
-Once you have all your tests running and passing, you might see that the Jest run is still exiting with exit code 1. This occurred in React Native Gallery. After some searching, I discovered it was because some of the components our tests were rendering contained asynchronous calls and updates. This results in Jest throwing errors because it cannot ensure that all tasks such as renders, user events, or data fetching were completed and applied before the snapshot match assertion was made. To resolve this error, you'll need to wrap the render of the component you wish to snapshot in React's `act()` function. Then, following the `act()` call, make your snapshot assertion. 
+Once you have all of your individual tests running and passing, you might see that Jest is still exiting with exit code 1. This occurred in React Native Gallery. After some searching, I discovered it was because some of the components our tests were rendering contained asynchronous calls and updates. This results in Jest throwing errors because it cannot ensure that all tasks such as renders, user events, or data fetching were completed and applied before the snapshot match assertion was made. To resolve this error, you'll need to wrap the render of the component you wish to snapshot in React's `act()` function. Then, following the `act()` call, make your snapshot assertion. 
 
 Here's a code snippet of the test for React Native Gallery's `DateTimePicker` page:
 ```js
@@ -80,11 +80,11 @@ test('TimePicker Example Page', async () => {
 });
 ```
 
-A couple of recommendations:
+Concluding, in this article I've shared my process for adding Jest Snapshot testing to a React Native Windows application. Adding snapshot testing to React Native Gallery has helped us track visual changes to app components occur and validate that new releases of React Native Windows do not break community modules. Before leaving, I also wanted to are a couple of recommendations:
 	1. The code for writing the tests is fairly straightforward; getting Jest configured correctly for your app is where the challenge kicks in. If you're working with an app with a number of community modules, tackle adding tests which use each community module one at a time.
 	2. Develop incrementally. Start with a test case which simply renders a `<View/>` control. Make sure your base case runs successfully. Then, test as you go. Jest errors aren't always clear, so the more granular you can make your changes between runs of the tests, the easier you'll be able to diagnose what's wrong.
 
-Additional Troubleshooting:
+And here are a couple more pointers for some blockers I've hit while working on this:
 	1. Attempting to run tests on the `react-native-permissions` module causes Jest to hang. As of now, we haven't solved this issue, so the test is disabled.
 	2. Some modules usage of the `UIManager.getViewManagerConfig()` API does not work well with Jest. `UIManager` returns undefined, even though the component is a part of core and thus should have already been transformed by Jest. As of now, we've had to disable tests for `TrackPlayer` and `SketchCanvas`.
 
