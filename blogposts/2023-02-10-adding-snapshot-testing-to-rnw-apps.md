@@ -22,7 +22,7 @@ One of the most common testing frameworks to use with React Native apps is [Jest
 }
 ```
 
-[Snapshot tests](https://jestjs.io/docs/snapshot-testing) help to capture UI and verify that no unexpected UI changes have been made. A snapshot test case will include rendering a UI component, taking a snapshot, and then comparing the snapshot to a reference file. If the two do not match, the test will fail. This is will occur in one of two cases. Either the UI change is unexpected, or the change is expected, and the snapshot reference needs to be updated.
+[Snapshot tests](https://jestjs.io/docs/snapshot-testing) help to capture UI and verify that no unexpected UI changes have been made. A snapshot test case will include rendering a UI component, taking a snapshot, and then comparing the snapshot to a reference file. If the two do not match, the test will fail. This will occur in one of two cases: either the UI change is unexpected, or the change is expected - and the snapshot reference needs to be updated.
 
 To begin, I followed Jest's [Getting Started](https://jestjs.io/docs/tutorial-react-native) guide for adding testing to React Native apps. This gave me a good overview of potential Jest configurations/customizations, how to write a simple snapshot test, and information on snapshot reference files.
 
