@@ -1,8 +1,8 @@
 ---
 post_title: "Adding Jest Snapshot Testing to React Native Windows Apps"
 author1: chiaramooney
-post_slug: 2023-02-10-adding-snapshot-testing-to-rnw-apps
-post_date: 2023-02-10 12:00:00
+post_slug: 2023-02-15-adding-snapshot-testing-to-rnw-apps
+post_date: 2023-02-15 12:00:00
 categories: react-native
 tags: jest, react-native, testing, react-native-windows, tutorial
 summary: I added Jest Snapshot testing to a React Native Windows app with community modules. Here's a guide on how I did it!
@@ -47,9 +47,9 @@ require('react-native-permissions/mock'),
 );
 ```
 If the community module does not have a mock.js file, you'll have to mock the undefined function yourself. There are a couple ways to sleuth out how to correctly mock: 
-	1. Check the community module source. If they have an example app with Jest testing, what do they do in their `jest-setup.js` file?
-	2. You can also check forum posts from the community on how they mocked particular methods for a given module.
-	3. React Native Gallery has a wide set of community modules it has tests for. Check out our [`jest-setup.js`](https://github.com/microsoft/react-native-gallery/blob/main/jest-setup.js) to see how we mocked needed modules. 
+1. Check the community module source. If they have an example app with Jest testing, what do they do in their `jest-setup.js` file?
+2. You can also check forum posts from the community on how they mocked particular methods for a given module.
+3. React Native Gallery has a wide set of community modules it has tests for. Check out our [`jest-setup.js`](https://github.com/microsoft/react-native-gallery/blob/main/jest-setup.js) to see how we mocked needed modules. 
 
 Here is React Native Gallery's Jest customization within [`package.json`](https://github.com/microsoft/react-native-gallery/blob/main/package.json):
 ```json
@@ -81,12 +81,12 @@ test('TimePicker Example Page', async () => {
 ```
 
 Concluding, in this article I've shared my process for adding Jest Snapshot testing to a React Native Windows application. Adding snapshot testing to React Native Gallery has helped us track visual changes to app components occur and validate that new releases of React Native Windows do not break community modules. Before leaving, I also wanted to are a couple of recommendations:
-	1. The code for writing the tests is fairly straightforward; getting Jest configured correctly for your app is where the challenge kicks in. If you're working with an app with a number of community modules, tackle adding tests which use each community module one at a time.
-	2. Develop incrementally. Start with a test case which simply renders a `<View/>` control. Make sure your base case runs successfully. Then, test as you go. Jest errors aren't always clear, so the more granular you can make your changes between runs of the tests, the easier you'll be able to diagnose what's wrong.
+1. The code for writing the tests is fairly straightforward; getting Jest configured correctly for your app is where the challenge kicks in. If you're working with an app with a number of community modules, tackle adding tests which use each community module one at a time.
+2. Develop incrementally. Start with a test case which simply renders a `<View/>` control. Make sure your base case runs successfully. Then, test as you go. Jest errors aren't always clear, so the more granular you can make your changes between runs of the tests, the easier you'll be able to diagnose what's wrong.
 
 And here are a couple more pointers for some blockers I've hit while working on this:
-	1. Attempting to run tests on the `react-native-permissions` module causes Jest to hang. As of now, we haven't solved this issue, so the test is disabled.
-	2. Some modules usage of the `UIManager.getViewManagerConfig()` API does not work well with Jest. `UIManager` returns undefined, even though the component is a part of core and thus should have already been transformed by Jest. As of now, we've had to disable tests for `TrackPlayer` and `SketchCanvas`.
+1. Attempting to run tests on the `react-native-permissions` module causes Jest to hang. As of now, we haven't solved this issue, so the test is disabled.
+2. Some modules usage of the `UIManager.getViewManagerConfig()` API does not work well with Jest. `UIManager` returns undefined, even though the component is a part of core and thus should have already been transformed by Jest. As of now, we've had to disable tests for `TrackPlayer` and `SketchCanvas`.
 
 ---
 
