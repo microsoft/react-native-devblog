@@ -81,7 +81,7 @@ test('TimePicker Example Page', async () => {
 ```
 
 Concluding, in this article I've shared my process for adding [Jest Snapshot](https://jestjs.io/docs/snapshot-testing) testing to a [React Native Windows](https://microsoft.github.io/react-native-windows/) application. Adding snapshot testing to [React Native Gallery](https://github.com/microsoft/react-native-gallery) has helped us track visual changes to app components occur and validate that new releases of React Native Windows do not break community modules. Before leaving, I also wanted to share a couple of recommendations:
-1. The code for writing the tests is fairly straightforward; getting Jest configured correctly for your app is where the challenge kicks in. If you're working with an app with a number of community modules, tackle adding tests which use each community module one at a time.
+1. The code for writing the tests is fairly straightforward; getting Jest configured correctly for your app can be where the challenge kicks in. If you're working on an app that depends on community modules, consider adding tests for each module one at a time.
 2. Develop incrementally. Start with a test case which simply renders a `<View/>` control. Make sure your base case runs successfully. Then, test as you go. Jest errors aren't always clear, so the more granular you can make your changes between runs of the tests, the easier you'll be able to diagnose what's wrong.
 
 And here are a couple more pointers for some blockers I've hit while working on this:
