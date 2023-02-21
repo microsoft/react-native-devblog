@@ -10,7 +10,7 @@ summary: I added Jest Snapshot testing to a React Native Windows app with commun
 
 [React Native Gallery](https://github.com/microsoft/react-native-gallery) is a React Native Windows app which showcases core and community module component samples. One function of the app is to validate whether a release has caused UI changes to our component set. In the past, this process was done manually by upgrading the app and walking through all sample pages to confirm that components were being rendered as expected, following the version upgrade. This process was time consuming and lacked accuracy. To automate more of this process, we've begun to add UI testing to React Native Gallery. In this blogpost, I'll walk through how I added Jest Snapshot testing to React Native Gallery. 
 
-One of the most common testing frameworks to use with React Native apps is [Jest](https://jestjs.io/). Jest is a JavaScript testing framework, which is included by default within React Native apps that were created after v0.38. You can confirm that your app has Jest setup by checking the `package.json` file at the root of your app. It should contain the following code:
+One of the most common testing frameworks to use with React Native apps is [Jest](https://jestjs.io/). Jest is a JavaScript testing framework that is included by default within React Native apps that were created after v0.38. You can confirm that your app has Jest setup by checking the `package.json` file at the root of your app. It should contain the following code:
 ```json
 {
   "scripts": {
