@@ -1,8 +1,8 @@
 ---
 post_title: "Adding Jest Snapshot Testing to React Native Windows Apps"
 author1: chiaramooney
-post_slug: 2023-02-15-adding-snapshot-testing-to-rnw-apps
-post_date: 2023-02-15 12:00:00
+post_slug: 2023-03-02-adding-snapshot-testing-to-rnw-apps
+post_date: 2023-03-02 12:00:00
 categories: react-native
 tags: jest, react-native, testing, react-native-windows, tutorial
 summary: I added Jest Snapshot testing to a React Native Windows app with community modules. Here's a guide on how I did it!
