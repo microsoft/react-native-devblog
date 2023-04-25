@@ -28,7 +28,7 @@ Talking about Fabric: the reason why react-native-macos is a fork and not a full
 
 With this release, we are excited to introduce an experimental preview of Fabric for macOS!
 
-It uses the same flags as iOS, and you can test it out the full new architecture on any project you like - by passing the ` RCT_NEW_ARCH_ENABLED=1` flag when running the pod install.
+It uses the [same flags as iOS](https://reactnative.dev/docs/new-architecture-app-intro#ios---run-pod-install), and you can test it out the full new architecture on any project you like - by passing the `RCT_NEW_ARCH_ENABLED=1` flag when running `pod install`.
 
 ### What does this release bring?
 
