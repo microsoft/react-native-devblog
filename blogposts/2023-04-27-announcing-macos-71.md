@@ -34,13 +34,12 @@ It uses the same flags as iOS, and you can test it out the full new architecture
 
 This release builds on top of the React Native core - and we encourage you to check out the blogpost highlighting the main changes for the versions between 0.68 and 0.71:
 
-- https://reactnative.dev/blog/2022/06/21/version-069
+- [Announcing React Native 0.69](https://reactnative.dev/blog/2022/06/21/version-069)
 
-- https://reactnative.dev/blog/2022/09/05/version-070
+- [Announcing React Native 0.70](https://reactnative.dev/blog/2022/09/05/version-070)
 
-- https://reactnative.dev/blog/2023/01/12/version-071
-
-It's worth noting that the TypeScript types are not fully ready yet - only the core ones are included in this release.
+- [React Native 0.71: TypeScript by Default, Flexbox Gap, and more...](https://reactnative.dev/blog/2023/01/12/version-071)
+  - *It's worth noting that the macOS TypeScript types are not fully ready yet - only the core ones are included in this release.*
 
 We have also spent a lot of effort on cleaning up the divergence points between React Native and our fork to make future releases smoother: this includes removing (thousands!) of stale files, upstreaming various bug fixes, and cleaning up RNTester-macOS. In doing so, we were also able to spot bugs and improvements that we sent back upstream, for the benefit of everyone using react-native on any platform.
 
