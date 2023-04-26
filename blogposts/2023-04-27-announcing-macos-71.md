@@ -24,7 +24,7 @@ A lot of work went into making React Native macOS better for this release, and a
 
 ### Bringing the new architecture from iOS to macOS
 
-Talking about Fabric: the reason why react-native-macos is a fork and not a fully independent implementation, is that a lot of the existing iOS code can be easily massaged into working for macOS. While this introduces extra complexity in its regular maintenance, it allows to quickly get access to new features -- including the new architecture.
+Talking about Fabric, one of the reasons why React Native macOS is a fork and not a fully independent implementation, is that a lot of the existing iOS code can be easily ported into working for macOS. While this introduces extra complexity in its regular maintenance, it allows to quickly get access to new features -- including the new architecture.
 
 With this release, we are excited to introduce an experimental preview of Fabric for macOS!
 
