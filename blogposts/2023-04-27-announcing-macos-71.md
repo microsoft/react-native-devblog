@@ -26,7 +26,7 @@ A lot of work went into making React Native macOS better for this release, and a
 
 Talking about Fabric, one of the reasons why React Native macOS is a fork and not a fully independent implementation, is that a lot of the existing iOS code can be easily ported into working for macOS. While this introduces extra complexity in its regular maintenance, it allows to quickly get access to new features -- including the new architecture.
 
-With this release, we are excited to introduce an experimental preview of Fabric for macOS!
+With this release, we are excited to introduce an experimental preview of Fabric for macOS! *As all things experimental, beware: it's very much a proof of concept and things are not stable.*
 
 It uses the [same flags as iOS](https://reactnative.dev/docs/new-architecture-app-intro#ios---run-pod-install), and you can test it out the full new architecture on any project you like - by passing the `RCT_NEW_ARCH_ENABLED=1` flag when running `pod install`.
 
