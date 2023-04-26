@@ -20,7 +20,7 @@ To reach this goal, as some of you might have noticed, we had to completely skip
 
 ### A successful collaboration
 
-A lot of work went into making React Native macOS better for this release, and a special thanks must be given to the Meta and Messenger Desktop engineers that regularly submitted fixes and improvements. In particular, we wanted to shout out [Shawn Dempsey](https://github.com/shwanton) and [Christoph Purrer](https://github.com/christophpurrer) for their great work on the many component (such as TextInput and ScrollView) and adding support for Fabric, among many other things!
+A lot of work went into making React Native macOS better for this release, and a special thanks must be given to the Meta and Messenger Desktop engineers that regularly submitted fixes and improvements. In particular, we wanted to shout out [Christoph Purrer](https://github.com/christophpurrer), [Shawn Dempsey](https://github.com/shwanton), and [Nick Lefever](https://github.com/lenaic) for adding experimental support for Fabric, among many other things!
 
 ### Bringing the new architecture from iOS to macOS
 
