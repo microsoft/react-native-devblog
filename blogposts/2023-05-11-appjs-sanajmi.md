@@ -4,7 +4,7 @@ author1: sanajmi
 post_slug: 2023-05-11-appjs-sanajmi
 post_date: 2023-05-11 12:00:00
 categories: react-native
-tags: talk, conference, chain-react-conf, react-native
+tags: talk, conference, appjs-conf, react-native
 featured_image: assets/featured-images/2023-05-11-appjs-sanajmi.jpg
 summary: Recording of the talk by Saad Najmi at App.js Conf 2023, about React Native macOS.
 ---
