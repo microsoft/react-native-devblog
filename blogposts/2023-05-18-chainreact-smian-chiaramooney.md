@@ -7,7 +7,7 @@ post_date: 2023-05-18 12:00:00
 categories: react-native
 tags: talk, conference, chain-react-conf, react-native
 featured_image: assets/featured-images/2023-05-18-chainreact-smian-chiaramooney.jpg
-summary: Recording of the talk by Chiara Mon at Chain React Conf 2023, an inside look at the journey and challenges of building and consuming React Native Windows by Microsoft developers.
+summary: Recording of the talk by Chiara Mooney & Shiven Mian at Chain React Conf 2023, an inside look at the journey and challenges of building and consuming React Native Windows by Microsoft developers.
 ---
 
 <p align="center">
