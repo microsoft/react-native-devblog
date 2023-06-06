@@ -4,7 +4,7 @@ author1: sanajmi
 post_slug: 2023-04-27-announcing-macos-71
 post_date: 2023-04-27 12:00:00
 categories: react-native
-tags: react-native, announcement, launch, react-native-macos, release
+tags: react-native, announcement, launch, react-native-macos, releases
 summary: "A new phase for react-native-macos: introducing version 0.71 and experimental support for the new architecture!"
 ---
 
