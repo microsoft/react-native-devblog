@@ -1,7 +1,7 @@
 ---
 post_title: "Chiara Mooney & Shiven Mian – Building for Microsoft (Chain React 2023)"
 author1: chiaramooney
-author2: smian
+author2: shivenmian
 post_slug: 2023-05-18-chainreact-smian-chiaramooney
 post_date: 2023-05-18 12:00:00
 categories: react-native
