@@ -2,7 +2,7 @@
 post_title: "React Native at Scale: How Microsoft is betting big on React Native to target BILLIONS of users - Steven Moyes, Slobo Stipic, Shiven Mian | React Native EU 2022"
 author1: stmoy
 author2: sstipic
-author3: smian
+author3: shivenmian
 post_slug: 2022-09-02-rneu-microsoft-billions
 post_date: 2022-09-02 12:00:00
 categories: react-native
