@@ -4,7 +4,7 @@ author1: prasadro
 post_slug: 2023-07-08-react-nexus-prasadro
 post_date: 2023-07-08 12:00:00
 categories: react-native
-tags: talk, conference, react-nexus, react-native
+tags: talk, react-nexus, conference, react-native
 featured_image: assets/featured-images/2023-07-08-react-nexus-prasadro.jpg
 summary: Recording of the talk by Rohan Prasad at React Nexus 2023, about all the platforms that you can target in a React Native project - not just iOS and Android.
 ---
