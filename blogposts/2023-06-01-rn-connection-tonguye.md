@@ -4,7 +4,7 @@ author1: tonguye
 post_slug: 2023-06-01-rn-connection-tonguye
 post_date: 2023-06-01 12:00:00
 categories: react-native
-tags: talk, conference, rn-connection, react-native
+tags: talk, rn-connection, conference, react-native
 featured_image: assets/featured-images/2023-06-01-rn-connection-tonguye.jpg
 summary: Recording of the talk by Tommy Nguyen at React Native Connection 2023, about raising the bar in the developer experience and velocity in Microsoft.
 ---
