@@ -5,7 +5,7 @@ author2: lsciandra
 post_slug: 2023-09-07-rneu-raising-the-bar
 post_date: 2023-09-07 12:00:00
 categories: react-native
-tags: talk, conference, react-native-europe, react-native
+tags: talk, conference, react-native, react-native-europe
 featured_image: assets/featured-images/2023-09-07-rneu-raising-the-bar.jpg
 summary: Recording of the talk by Lorenzo Sciandra and Tommy Nguyen at React Native Europe 2023, about Microsoft's experience in expanding the vision of what React Native can be.
 ---
