@@ -2,7 +2,7 @@
 
 This **public** repository serves as the backbone of the official [React Native DevBlog](https://devblogs.microsoft.com/react-native/).
 
-The editorial team is currently composed by [Ryan Haning](https://github.com/rhaning), [Steven Moyes](https://github.com/stmoy), [Lorenzo Sciandra](https://github.com/kelset), [Adam Foxman](https://github.com/afoxman).
+The editorial team is currently composed by [Steven Moyes](https://github.com/stmoy) and [Lorenzo Sciandra](https://github.com/kelset).
 
 ## Writing guide
 
