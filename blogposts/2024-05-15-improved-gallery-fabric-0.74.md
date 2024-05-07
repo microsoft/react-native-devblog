@@ -12,7 +12,7 @@ Embark on an exciting journey with our revamped Gallery app, now aligned with th
 
 # ✨ Improved Gallery App
 
-Recently, we've embarked on an exciting journey to revitalize our Gallery app, aligning it with the [WinUI3 gallery](https://www.microsoft.com/store/productId/9P3JFPWWDZRC?ocid=pdpshare) to showcase a more modern RNW application and enhancing multiple accessibility features. We have expanded our examples to include clipboard, simple fetch/post, radio buttons, and linear gradients examples.
+We've been hard at work revitalizing our Gallery app, aligning it with the [WinUI3 gallery](https://www.microsoft.com/store/productId/9P3JFPWWDZRC?ocid=pdpshare) to showcase a more sleek and modern RNW application. In addition, we've elevated the accessibility features and broadened our array of examples to encompass clipboard functionality, straightforward fetch/post operations, as well as demonstrations of radio buttons and linear gradients.
 
 Get React Native Gallery from the [Microsoft store]((https://www.microsoft.com/store/productId/9NPG0B292H4R?ocid=pdpshare)) or get the latest changes from our (Github repository)[https://github.com/microsoft/react-native-gallery]!
 
