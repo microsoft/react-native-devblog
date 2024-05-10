@@ -8,11 +8,11 @@ tags: react-native, react-native-windows, releases
 summary: We've recently release React Native 0.74! Alongside all the fantastic features from React Native, we've been hard at work enhancing the Windows experience, refreshing our Gallery App, and setting the stage for Fabric support.
 ---
 
-React Native Windows 0.74 is now live, introducing a host of enhancements, from empowered view managers to streamlined template support, learn how you can support more complex Windows Application! Step into the future with our revamped Gallery app, aligned with the WinUI3 gallery for a cutting-edge RNW experience with an expanded example matrix. Plus, get an exclusive peek at Fabric, our latest rendering system for React Native, designed for optimal efficiency in C++. Explore these changes and more!
+React Native Windows 0.74 is now live, introducing a host of enhancements, from empowered view managers to streamlined template support, learn how you can support more complex React Native Window Applications! Step into the future with our revamped Gallery app, aligned with the WinUI3 gallery for a cutting-edge RNW experience with an expanded example matrix. Plus, get an exclusive peek at Fabric, our latest rendering system for React Native, designed for optimal efficiency in C++. Explore these changes and more!
 
 # 🎉 React Native Windows 0.74 Release Now Available! 🎉
 
-We're thrilled to announce the release of React Native Windows version 0.74, freshly rolled out on 4/29/2024! Alongside the enhancements brought by React Native 0.74, we've been hard at work implementing some exciting Windows-specific updates.
+We're thrilled to announce the release of React Native Windows version 0.74, freshly rolled out on 4/29/2024! Alongside the enhancements brought by [React Native 0.74](https://reactnative.dev/blog/2024/04/22/release-0.74), we've been hard at work implementing some exciting Windows-specific updates.
 
 ## New Features
 
@@ -47,6 +47,12 @@ To streamline our debugging process, we're shifting our focus from web debugging
 
 CoreApp was created as a testing ground to explore potential directions for Fabric. We've taken what we've learned as influence on the Fabric app templates and we've made the decision to deprecate the CoreApp option for Paper apps.
 
+## Reliability Boost
+
+While perhaps less flashy, another crucial aspect of 0.74 is our commitment to enhancing the reliability and trustworthiness of React Native Windows. In this release, we've tackled numerous bugs, ranging from resolving [ScrollView's momentum scroll](https://github.com/microsoft/react-native-windows/commit/1367b74599cc888082d280d728b1ac02917cea96) issues and [preventing memory leaks from HTTP responses](https://github.com/microsoft/react-native-windows/commit/ea58fe084c5d8a9116c69807ca9473aaa9e54221) to addressing [UIScheduler deadlocking during shutdown](https://github.com/microsoft/react-native-windows/commit/e2bf3e27f1ad328bcc74d00083482ed5d74a4af6).
+
+If you encounter any bugs in 0.74, please help us out by filing an issue on our [repository](https://github.com/microsoft/react-native-windows/issues)!
+
 ## What's the best way to upgrade my App?
 
 The best way to upgrade to the latest **0.74** release is to follow our [upgrade documentation](https://microsoft.github.io/react-native-windows/docs/upgrade-app) where you can either upgrade with CLI commands or manually update your application using the [Upgrade Helper](https://react-native-community.github.io/upgrade-helper/). 
@@ -63,13 +69,13 @@ Get React Native Gallery from the [Microsoft store](https://www.microsoft.com/st
 
 # 🗺️ Roadmap to Fabric
 
-Adding Windows support for [Fabric](https://reactnative.dev/architecture/fabric-renderer), the latest rendering system for React Native. Designed for efficiency across platforms in C++, React Native for Windows Fabric seamlessly targets Composition while allowing hosting XAML islands within. Fabric-powered apps default to [WinAppSDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/) architecture, aligning with modern [WinUI3 standards](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/). Stay tuned for migration guidance for current UWP RNW apps. Follow our journey to Fabric [here](https://github.com/microsoft/react-native-windows/issues/12042).
+We've committed ourselves to adding Windows support for React Native's [Fabric](https://reactnative.dev/architecture/fabric-renderer) architecture, the latest rendering system for React Native. Designed for efficiency across platforms in C++, React Native for Windows Fabric seamlessly targets Composition while allowing hosting XAML islands within. Fabric-powered apps default to [WinAppSDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/) architecture, aligning with modern [WinUI3 standards](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/). Stay tuned for migration guidance for current UWP RNW apps. Follow our journey to Fabric [here](https://github.com/microsoft/react-native-windows/issues/12042).
 
 *I think it would be super slay to have a demo of an app here. Some choices include Gallery on Fabric (hopefully updated to Chris's latest changes), Playground RNTester, ChatAI App*
 
 ## Increasing Core Functionality
 
-We have been hard at work getting component parity up to speed with the old architecture (*commonly referred to as Paper*) rendering system. Several components, including Views, TextInput, and ActivityIndicator, already support a large set of properties and methods, with more components in the work. Here's a current snapshot of our progress:
+We have been hard at work getting component parity up to speed with the old architecture's (*commonly referred to as Paper*) rendering system, ensuring a seamless transition for users migrating to Fabric in the future. Several components, including Views, TextInput, and ActivityIndicator, already support a large set of properties and methods, with more components in the work. Here's a current snapshot of our progress:
 
 | Priority | Component | Available | Properties |
 | --- | --- | --- | --- | 
