@@ -1,14 +1,14 @@
 ---
-post_title: "RNW 0.74 Launches: From Gallery Enhancements to Fabric Exploration!"
+post_title: "RNW 0.74 Launches: A Gallery Glow-up and Fabric Foundations!"
 author1: tatianakapos
 post_slug: 2024-05-15-improved-gallery-fabric-0.74
 post_date: 2024-05-15 12:00:00
 categories: react-native
 tags: react-native, react-native-windows, releases
-summary: We've recently release React Native 0.74! Alongside all the fantastic features from React Native, we've been hard at work enhancing the Windows experience, refreshing our Gallery App, and setting the stage for Fabric support.
+summary: We've recently released React Native 0.74! Alongside all the fantastic features from React Native, we've been hard at work enhancing the Windows experience, refreshing our Gallery App, and setting the stage for Fabric support.
 ---
 
-React Native Windows 0.74 is now live, introducing a host of enhancements, from empowered view managers to streamlined template support, learn how you can support more complex React Native Window Applications! Step into the future with our revamped Gallery app, aligned with the WinUI3 gallery for a cutting-edge RNW experience with an expanded example matrix. Plus, get an exclusive peek at Fabric, our latest rendering system for React Native, designed for optimal efficiency in C++. Explore these changes and more!
+React Native Windows 0.74 is now live, introducing a host of enhancements ranging from empowered view managers to streamlined template support so you can learn how to support more complex React Native Windows applications! Step into the future with our revamped Gallery app, aligned with the [WinUI Gallery](https://aka.ms/winuigallery) for a cutting-edge RNW experience with even more examples. Plus, get an exclusive peek at Fabric, our latest rendering system for React Native, designed for optimal efficiency in C++. Explore these changes and more!
 
 # 🎉 React Native Windows 0.74 Release Now Available! 🎉
 
@@ -24,7 +24,7 @@ To get the full list of release details, including breaking changes, check out o
 
 ### View Managers Empowered to Capture Pointers 🖱️ https://github.com/microsoft/react-native-windows/pull/8969
 
-Now, view managers can control of the pointer with the new 'AllowUncaptured' flag. This feature enables continued receipt of events, such as PointerMoved, even after the initial press. Say hello to more sophisticated interactions, like dragging elements beyond their conventional boundaries. [Learn more...](https://github.com/microsoft/react-native-windows/pull/8969)
+View managers can now control the pointer with the new 'AllowUncaptured' flag. This feature enables continued receipt of events, such as `PointerMoved`, even after the initial press. Say hello to more sophisticated interactions, like dragging elements beyond their conventional boundaries. [To learn more about how you can use `AllowUncaptured, click here](https://github.com/microsoft/react-native-windows/pull/8969)
 
 ### Streamlined C++ Template Support for create-react-native-library 
 
@@ -47,11 +47,11 @@ In response to community feedback, we've bolstered the Pressable component's fun
 
 ### Direct Debugging as the Default
 
-To streamline our debugging process, we're shifting our focus from web debugging to align with React Native's decision to [deprecate web debugging](https://github.com/react-native-community/discussions-and-proposals/discussions/734). For all engines except Hermes, we recommend utilizing direct debugging. While Hermes currently experiences challenges with direct debugging, rest assured, we're actively working on a solution for an upcoming patch release. Check for updates surrounding Hermes [here](https://github.com/microsoft/react-native-windows/issues/12982)
+To streamline our debugging process, we're shifting our focus from web debugging to align with React Native's direction to [deprecate web debugging](https://github.com/react-native-community/discussions-and-proposals/discussions/734). For all engines except Hermes, we recommend utilizing direct debugging. While Hermes currently experiences challenges with direct debugging, we're actively working on a solution for an upcoming patch release. Check for updates surrounding Hermes [here](https://github.com/microsoft/react-native-windows/issues/12982).
 
 ### CoreApp APIs and prototypes
 
-CoreApp was created as a testing ground to explore potential directions for Fabric. We've taken what we've learned as influence on the Fabric app templates and we've made the decision to deprecate the CoreApp option for Paper apps.
+CoreApp was created as a testing ground to explore potential directions for Fabric. We've taken these learnings back into the main Fabric app templates, and have therefore deprecated the CoreApp option for Paper apps. 
 
 ## Reliability Boost
 
@@ -59,9 +59,9 @@ While perhaps less flashy, another crucial aspect of 0.74 is our commitment to e
 
 If you encounter any bugs in 0.74, please help us out by filing an issue on our [repository](https://github.com/microsoft/react-native-windows/issues)!
 
-# ✨ Improved Gallery App
+# ✨ Improved [React Native Gallery](https://www.microsoft.com/store/productId/9NPG0B292H4R?ocid=pdpshare) App
 
-We've been hard at work revitalizing our Gallery app, aligning it with the [WinUI3 gallery](https://www.microsoft.com/store/productId/9P3JFPWWDZRC?ocid=pdpshare) to showcase a more sleek and modern RNW application. In addition, we've ensured it meets inclusive and accessible design requirements and broadened the array of examples to encompass more community modules and common scenarios.
+We've been hard at work revitalizing our Gallery app, aligning it with the [WinUI Gallery](https://aka.ms/winuiGallery) to showcase a more sleek and modern RNW application. In addition, we've ensured it meets inclusive and accessible design requirements and broadened the array of examples to encompass more community modules and common scenarios.
 
 Get React Native Gallery from the [Microsoft store](https://www.microsoft.com/store/productId/9NPG0B292H4R?ocid=pdpshare) or get the latest changes from our (Github repository)[https://github.com/microsoft/react-native-gallery]!
 
@@ -104,4 +104,4 @@ At this time, Fabric on Windows isn't quite ready for widespread adoption. While
 
 If you’re interested in getting started with React Native for Windows, check out our website at [aka.ms/reactnative](https://microsoft.github.io/react-native-windows/).
 
-You can also follow us on Twitter [@ReactNativeMSFT](https://twitter.com/reactnativemsft) to keep up to date on news, feature roadmaps, and more.
+You can also follow us on X [@ReactNativeMSFT](https://twitter.com/reactnativemsft) to keep up to date on news, feature roadmaps, and more.
