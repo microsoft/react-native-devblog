@@ -12,7 +12,13 @@ React Native Windows 0.74 is now live, introducing a host of enhancements, from 
 
 # 🎉 React Native Windows 0.74 Release Now Available! 🎉
 
-We're thrilled to announce the release of React Native Windows version 0.74, freshly rolled out on 4/29/2024! Alongside the enhancements brought by [React Native 0.74](https://reactnative.dev/blog/2024/04/22/release-0.74), we've been hard at work implementing some exciting Windows-specific updates.
+We're thrilled to announce the release of [React Native Windows version 0.74](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.74.0), freshly rolled out on 4/29/2024! Alongside the enhancements brought by [React Native 0.74](https://reactnative.dev/blog/2024/04/22/release-0.74), we've been hard at work implementing some exciting Windows-specific updates.
+
+## What's the best way to upgrade my App?
+
+The best way to upgrade to the latest **0.74** release is to follow our [upgrade documentation](https://microsoft.github.io/react-native-windows/docs/upgrade-app) where you can either upgrade with CLI commands or manually update your application using the [Upgrade Helper](https://react-native-community.github.io/upgrade-helper/). 
+
+To get the full list of release details, including breaking changes, check out our [release notes over on our repo.](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.74.0)
 
 ## New Features
 
@@ -53,12 +59,6 @@ While perhaps less flashy, another crucial aspect of 0.74 is our commitment to e
 
 If you encounter any bugs in 0.74, please help us out by filing an issue on our [repository](https://github.com/microsoft/react-native-windows/issues)!
 
-## What's the best way to upgrade my App?
-
-The best way to upgrade to the latest **0.74** release is to follow our [upgrade documentation](https://microsoft.github.io/react-native-windows/docs/upgrade-app) where you can either upgrade with CLI commands or manually update your application using the [Upgrade Helper](https://react-native-community.github.io/upgrade-helper/). 
-
-To get the full list of release details, including breaking changes, check out our [release notes over on our repo.](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.74.0)
-
 # ✨ Improved Gallery App
 
 We've been hard at work revitalizing our Gallery app, aligning it with the [WinUI3 gallery](https://www.microsoft.com/store/productId/9P3JFPWWDZRC?ocid=pdpshare) to showcase a more sleek and modern RNW application. In addition, we've ensured it meets inclusive and accessible design requirements and broadened the array of examples to encompass more community modules and common scenarios.
@@ -71,7 +71,11 @@ Get React Native Gallery from the [Microsoft store](https://www.microsoft.com/st
 
 We've committed ourselves to adding Windows support for React Native's [Fabric](https://reactnative.dev/architecture/fabric-renderer) architecture, the latest rendering system for React Native. Designed for efficiency across platforms in C++, React Native for Windows Fabric seamlessly targets Composition while allowing hosting XAML islands within. Fabric-powered apps default to [WinAppSDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/) architecture, aligning with modern [WinUI3 standards](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/). Stay tuned for migration guidance for current UWP RNW apps. Follow our journey to Fabric [here](https://github.com/microsoft/react-native-windows/issues/12042).
 
-*I think it would be super slay to have a demo of an app here. Some choices include Gallery on Fabric (hopefully updated to Chris's latest changes), Playground RNTester, ChatAI App*
+While our migration efforts to Fabric are underway, our applications aren't quite ready for publication just yet. But fear not! We're thrilled to offer you a sneak peek at a functional app in both Paper and Fabric versions. Please bear in mind that Fabric may exhibit some visual disparities that we are working to iron out.
+
+![chat-ai-paper-gif-2024](assets/2024-05-15-improved-gallery-fabric-0.74/chat-ai-paper.gif)
+
+![chat-ai-fabric-gif-2024](assets/2024-05-15-improved-gallery-fabric-0.74/chat-ai-fabric.gif)
 
 ## Increasing Core Functionality
 
