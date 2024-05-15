@@ -81,18 +81,18 @@ While our migration efforts to Fabric are underway, our applications aren't quit
 
 We have been hard at work getting component parity up to speed with the old architecture's (*commonly referred to as Paper*) rendering system, ensuring a seamless transition for users migrating to Fabric in the future. Several components, including Views, TextInput, and ActivityIndicator, already support a large set of properties and methods, with more components in the work. Here's a current snapshot of our progress:
 
-| Priority | Component | Available | Properties |
+| Priority | Component | Available | Properties/Methods |
 | --- | --- | --- | --- | 
-| 0 | View| ✅ | 90% | 
-| 0 | Text| ✅ | 85% | 
-| 0 | Image| ✅ | 89% | 
-| 0 | TextInput| ✅ | 80% | 
-| 1 | ScrollView| ✅ | 84% | 
-| 1 | Modal| 🟥 | 64% | 
-| 2 | ActivityIndicator| ✅ | 86% | 
-| 2 | Switch| ✅ | 90% | 
-| 2 | RefreshControl| 🟥 | 28% | 
-*As of February 2024*
+| 0 | View| ✅ | 93% | 
+| 0 | Text| ✅ | 89% | 
+| 0 | Image| ✅ | 91% | 
+| 0 | TextInput| ✅ | 82% | 
+| 1 | ScrollView| ✅ | 86% | 
+| 1 | Modal| 🟥 | 0% | 
+| 2 | ActivityIndicator| ✅ | 89% | 
+| 2 | Switch| ✅ | 92% | 
+| 2 | RefreshControl| 🟥 | 0% | 
+*As of April 2024*
 
 ## What Lies Ahead
 
