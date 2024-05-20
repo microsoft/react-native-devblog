@@ -34,11 +34,6 @@ Introducing a fresh template, seamlessly integrating with the 'npx create-react-
 
 With React Native Windows now adopting the latest C++20 standard, we're bringing our codebase up to speed with modern development practices. [Learn more...](https://github.com/microsoft/react-native-windows/pull/12656)
 
-### Enable custom timer factory implementation 
-
-Introducing `Microsoft.ReactNative.ReactCoreInjection.SetTimerFactory`, a game-changer for custom timer implementations in React Native for Windows. Ideal for environments lacking a `Microsoft.UI.Dispatching.DispatcherQueue`, this feature ensures seamless operation, even under diverse circumstances. [Learn more...](https://github.com/microsoft/react-native-windows/pull/12856)
-
-
 ### Enhanced Pressable Component with Disabled Property Support
 
 In response to community feedback, we've bolstered the Pressable component's functionality. This update introduces native support for the `disabled` property, while also ensuring that the onKeyDown event handler behaves appropriately when the component is disabled. [Learn more...](https://github.com/microsoft/react-native-windows/pull/12799)
@@ -47,7 +42,7 @@ In response to community feedback, we've bolstered the Pressable component's fun
 
 ### Direct Debugging as the Default
 
-To streamline our debugging process, we're shifting our focus from web debugging to align with React Native's direction to [deprecate web debugging](https://github.com/react-native-community/discussions-and-proposals/discussions/734). For all engines except Hermes, we recommend utilizing direct debugging. While Hermes currently experiences challenges with direct debugging, we're actively working on a solution for an upcoming patch release. Check for updates surrounding Hermes [here](https://github.com/microsoft/react-native-windows/issues/12982).
+To streamline our debugging process, we're shifting our focus from web debugging to align with React Native's direction to [deprecate web debugging](https://github.com/react-native-community/discussions-and-proposals/discussions/734). For all engines, we now recommend utilizing direct debugging.
 
 ### CoreApp APIs and prototypes
 
@@ -97,6 +92,8 @@ As of April 2024. More detail on the repo [here](https://github.com/microsoft/re
 ## What Lies Ahead
 
 We're currently striving to achieve component parity with the old architecture, ensuring each component has well-rounded functionality and implementing Modal and RefreshControl. Additionally, our efforts extend to migrating community modules to Fabric and exploring the integration of XAML components within a Fabric app.
+ 
+It is important to note that hosting XAML controls is not currently possible in the RNW Fabric, which represents a significant gap. Additionally, community modules do not support RNW Fabric yet, and custom components won't work without additional effort. We are aware of these issues and are actively working to implement solutions soon.
 
 At this time, Fabric on Windows isn't quite ready for widespread adoption. While we're actively working to enhance both functionality and the developer experience, there are still significant gaps to address.  Keep in mind that documentation may be limited, and we recommend reviewing the provided lists of yet-to-be-implemented features before submitting any bug reports. Rest assured, as we continue our journey, support for Fabric will steadily expand which you can follow [here](https://github.com/microsoft/react-native-windows/issues/12042)!
 
