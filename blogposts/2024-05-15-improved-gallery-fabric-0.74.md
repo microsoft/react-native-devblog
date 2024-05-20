@@ -71,28 +71,28 @@ Get React Native Gallery from the [Microsoft store](https://www.microsoft.com/st
 
 We've committed ourselves to adding Windows support for React Native's [Fabric](https://reactnative.dev/architecture/fabric-renderer) architecture, the latest rendering system for React Native. Designed for efficiency across platforms in C++, React Native for Windows Fabric seamlessly targets Composition while allowing hosting XAML islands within. Fabric-powered apps default to [WinAppSDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/) architecture, aligning with modern [WinUI3 standards](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/). Stay tuned for migration guidance for current UWP RNW apps. Follow our journey to Fabric [here](https://github.com/microsoft/react-native-windows/issues/12042).
 
-While our migration efforts to Fabric are underway, our applications aren't quite ready for publication just yet. But fear not! We're thrilled to offer you a sneak peek at a functional app in both Paper and Fabric versions. Please bear in mind that Fabric may exhibit some visual disparities that we are working to iron out.
+While our migration efforts to Fabric are underway, our applications aren't quite ready for publication just yet. But fear not! We're thrilled to offer you a sneak peek at a functional app in both Paper and Fabric versions. Please bear in mind that Fabric may exhibit some visual disparities that we are working to iron out (keep an eye on that road map [here](https://github.com/microsoft/react-native-windows/issues/12042)!).
 
-![chat-ai-paper-gif-2024](assets/2024-05-15-improved-gallery-fabric-0.74/chat-ai-paper.gif)
-
-![chat-ai-fabric-gif-2024](assets/2024-05-15-improved-gallery-fabric-0.74/chat-ai-fabric.gif)
+| App on Paper | App on Fabric |
+| --- | --- |
+| ![chat-ai-paper-gif-2024](assets/2024-05-15-improved-gallery-fabric-0.74/chat-ai-paper.gif) | ![chat-ai-fabric-gif-2024](assets/2024-05-15-improved-gallery-fabric-0.74/chat-ai-fabric.gif) |
 
 ## Increasing Core Functionality
 
 We have been hard at work getting component parity up to speed with the old architecture's (*commonly referred to as Paper*) rendering system, ensuring a seamless transition for users migrating to Fabric in the future. Several components, including Views, TextInput, and ActivityIndicator, already support a large set of properties and methods, with more components in the work. Here's a current snapshot of our progress:
 
-| Priority | Component | Available | Properties/Methods |
-| --- | --- | --- | --- | 
-| 0 | View| ✅ | 93% | 
-| 0 | Text| ✅ | 89% | 
-| 0 | Image| ✅ | 91% | 
-| 0 | TextInput| ✅ | 82% | 
-| 1 | ScrollView| ✅ | 86% | 
-| 1 | Modal| 🟥 | 0% | 
-| 2 | ActivityIndicator| ✅ | 89% | 
-| 2 | Switch| ✅ | 92% | 
-| 2 | RefreshControl| 🟥 | 0% | 
-*As of April 2024*
+| Component | Available | Properties/Methods |
+| --- | --- | --- | 
+| View| ✅ | 93% | 
+| Text| ✅ | 89% | 
+| Image| ✅ | 91% | 
+| TextInput| ✅ | 82% | 
+| ScrollView| ✅ | 86% | 
+| ActivityIndicator| ✅ | 89% | 
+| Switch| ✅ | 92% | 
+| RefreshControl| 🟥 | 0% | 
+| Modal| 🟥 | 0% | 
+As of April 2024. More detail on the repo [here](https://github.com/microsoft/react-native-windows/issues/12042).
 
 ## What Lies Ahead
 
