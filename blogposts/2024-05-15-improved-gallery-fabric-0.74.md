@@ -92,10 +92,8 @@ As of April 2024. More detail on the repo [here](https://github.com/microsoft/re
 ## What Lies Ahead
 
 We're currently striving to achieve component parity with the old architecture, ensuring each component has well-rounded functionality and implementing Modal and RefreshControl. Additionally, our efforts extend to migrating community modules to Fabric and exploring the integration of XAML components within a Fabric app.
- 
-It is important to note that hosting XAML controls is not currently possible in the RNW Fabric, which represents a significant gap. Additionally, community modules do not support RNW Fabric yet, and custom components won't work without additional effort. We are aware of these issues and are actively working to implement solutions soon.
 
-At this time, Fabric on Windows isn't quite ready for widespread adoption. While we're actively working to enhance both functionality and the developer experience, there are still significant gaps to address.  Keep in mind that documentation may be limited, and we recommend reviewing the provided lists of yet-to-be-implemented features before submitting any bug reports. Rest assured, as we continue our journey, support for Fabric will steadily expand which you can follow [here](https://github.com/microsoft/react-native-windows/issues/12042)!
+At this time, Fabric on Windows isn't quite ready for widespread adoption. While we're actively working to enhance both functionality and the developer experience, there are still significant gaps to address. For example, public community modules do not yet support RNW Fabric, it's not currently possible to host XAML controls and custom components won't work without additional effort. At this stage documentation may be limited, and we recommend reviewing the provided lists of yet-to-be-implemented features before submitting any bug reports. Rest assured, as we continue our journey, support for Fabric will steadily expand which you can follow [here](https://github.com/microsoft/react-native-windows/issues/12042)!
 
 ---
 
