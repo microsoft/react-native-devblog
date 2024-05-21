@@ -66,7 +66,7 @@ Get React Native Gallery from the [Microsoft store](https://www.microsoft.com/st
 
 We've committed ourselves to adding Windows support for React Native's [Fabric](https://reactnative.dev/architecture/fabric-renderer) architecture, the latest rendering system for React Native. Designed for efficiency across platforms in C++, React Native for Windows Fabric seamlessly targets Composition while allowing hosting XAML islands within. Fabric-powered apps default to [WinAppSDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/) architecture, aligning with modern [WinUI3 standards](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/). Stay tuned for migration guidance for current UWP RNW apps. Follow our journey to Fabric [here](https://github.com/microsoft/react-native-windows/issues/12042).
 
-While our migration efforts to Fabric are underway, our applications aren't quite ready for publication just yet. But fear not! We're thrilled to offer you a sneak peek at a functional app in both Paper and Fabric versions. Please bear in mind that Fabric may exhibit some visual disparities that we are working to iron out (keep an eye on that road map [here](https://github.com/microsoft/react-native-windows/issues/12042)!).
+While our migration efforts to Fabric are underway, we aren't quite ready for production applications on Fabric. But fear not! We're thrilled to offer you a sneak peek at a functional app in both Paper and Fabric versions. Please bear in mind that Fabric may exhibit some visual disparities that we are working to iron out (keep an eye on that road map [here](https://github.com/microsoft/react-native-windows/issues/12042)!).
 
 | App on Paper | App on Fabric |
 | --- | --- |
