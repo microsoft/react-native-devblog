@@ -1,8 +1,8 @@
 ---
 post_title: "RNW 0.74 Launches: A Gallery Glow-up and Fabric Foundations!"
 author1: tatianakapos
-post_slug: 2024-05-15-improved-gallery-fabric-0.74
-post_date: 2024-05-15 12:00:00
+post_slug: 2024-05-24-improved-gallery-fabric-0.74
+post_date: 2024-05-24 12:00:00
 categories: react-native
 tags: react-native, react-native-windows, releases
 summary: We've recently released React Native 0.74! Alongside all the fantastic features from React Native, we've been hard at work enhancing the Windows experience, refreshing our Gallery App, and setting the stage for Fabric support.
