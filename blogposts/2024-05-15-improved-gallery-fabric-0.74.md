@@ -60,7 +60,7 @@ We've been hard at work revitalizing our Gallery app, aligning it with the [WinU
 
 Get React Native Gallery from the [Microsoft store](https://www.microsoft.com/store/productId/9NPG0B292H4R?ocid=pdpshare) or get the latest changes from our (Github repository)[https://github.com/microsoft/react-native-gallery]!
 
-![rn-gallery-gif-2024](assets/gallery-demo-2024.gif)
+![rn-gallery-gif-2024](assets/2024-05-15-improved-gallery-fabric-0.74/gallery-demo-2024.gif)
 
 # 🗺️ Roadmap to Fabric
 
