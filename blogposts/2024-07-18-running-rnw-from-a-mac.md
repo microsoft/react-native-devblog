@@ -16,13 +16,13 @@ The React Native for Windows team has heard the community feedback. While runnin
 
 In this blog post, I'm going to walk through a few options for how to develop React Native for Windows applications from your MacBook computer because owning a Windows device is not a requirement to build and ship Windows experiences.
 
-To do this, we'll leverage virtual machine software. There are several options you have as a developer to spin-up a Windows VM from a Mac computer including Parallels, VirtualBox, VMWare, and Microsoft Dev Box to name a few. In this post, I'll walk through my experience using Parallels and Microsoft Dev Box to build React Native for Windows applications from a MacBook.
+To get started building Windows experiences from a non-Windows device, you can leverage virtual machine software. There are several options you have as a developer to spin-up a Windows VM from a Mac computer including [Parallels](https://www.parallels.com/), [VirtualBox](https://www.virtualbox.org/), [VMWare](https://www.vmware.com/), and [Microsoft Dev Box](https://azure.microsoft.com/products/dev-box/) to name a few. In this post, I'll walk through my experience using Parallels and Microsoft Dev Box to build React Native for Windows applications from a MacBook.
 
 ## Creating a Windows VM using Parallels
 
-The first Windows VM option I tried was [Parallels](https://www.parallels.com/). Parallels is a software which can be locally installed on a developer's MacOS machine to be used to create virtual machines of a variety of operating systems.
+One option to create VMs on macOS is [Parallels](https://www.parallels.com/). Parallels is a software which can be locally installed on a developer's MacOS machine to be used to create virtual machines of a variety of operating systems.
 
-After signing up for the [Parallels free trial](https://www.parallels.com/products/desktop/trial/), I was given a download of the Parallels Desktop software and installation instructions. After Parallels Desktop was installed and running, the software prompted me to install Windows 11. From there, I was able to run a Windows VM.
+After signing up for the [Parallels free trial](https://www.parallels.com/products/desktop/trial/), you will be given a download of the Parallels Desktop software and installation instructions. After Parallels Desktop was installed and running, the software will prompt you to install Windows 11. From there, your Windows VM is ready to be run.
 
 With my virtual machine running, I was able to use the VM as if I was on a Windows computer. From here, I could follow the ["System Requirements"](https://microsoft.github.io/react-native-windows/docs/rnw-dependencies) and ["Getting Started"](https://microsoft.github.io/react-native-windows/docs/getting-started) documentation for React Native for Windows. Parallels had access to my local files, so I did not need to redownload any source code to get started developing. When I was finished with my development session, I was able to close the virtual machine and the machine's state was saved for next time.
 
@@ -34,7 +34,7 @@ In less than an hour, I was able to spin up a Windows VM on a Mac and use that e
 
 ## Creating a Windows VM using Microsoft Dev Box
 
-The second Windows VM option I tried was [Microsoft Dev Box](https://azure.microsoft.com/en-us/products/dev-box/). Microsoft Dev Box is a [Microsoft Azure](https://azure.microsoft.com/en-us) product that allows developers to spin up a Windows VM from most modern devices including MacOS devices.
+The second Windows VM option I tried was [Microsoft Dev Box](https://azure.microsoft.com/products/dev-box/). Microsoft Dev Box is a [Microsoft Azure](https://azure.microsoft.com) product that allows developers to spin up a Windows VM from most modern devices including MacOS devices.
 
 Microsoft Dev Box supports:
 
@@ -45,11 +45,11 @@ Microsoft Dev Box supports:
 
 Before you get started creating a VM with Microsoft Dev Box, there are a couple troubleshooting callouts I want to mention:
 
-1. You will need an Azure subscription that is not the ["free trial"](https://azure.microsoft.com/en-us/free/) subscription. You must upgrade to the [“Pay As You Go”](https://azure.microsoft.com/en-us/pricing/purchase-options/pay-as-you-go/) subscription to use Microsoft Dev Box, but you can use the $200 of free credits that you gained via the "free trial" subscription as initial payment within the “Pay As You Go” plan. If you try to create a Dev Box Definition with the "free trial" Azure subscription, you will received a "Quota has been reached" error.
+1. You will need an Azure subscription that is not the ["free trial"](https://azure.microsoft.com/free/) subscription. You must upgrade to the [“Pay As You Go”](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/) subscription to use Microsoft Dev Box, but you can use the $200 of free credits that you gained via the "free trial" subscription as initial payment within the “Pay As You Go” plan. If you try to create a Dev Box Definition with the "free trial" Azure subscription, you will received a "Quota has been reached" error.
 1. You will also need a work or school MSA (Microsoft Account). Personal or guest MSA’s cannot be used with the Dev Box portal at this time.
-1. Your machine will need to be managed with [Microsoft Intune](https://www.microsoft.com/en-us/security/business/Microsoft-Intune).
+1. Your machine will need to be managed with [Microsoft Intune](https://www.microsoft.com/security/business/Microsoft-Intune).
 
-I followed Microsoft's documentation to create a dev box using Microsoft Dev Box. I found the documentation to be straightforward to follow; there are also several tutorial videos online from developers, if you prefer to see someone walk through the steps live. You'll need to complete two steps of documentation to get your dev box up and running: [Setting Up Your Dev Box Service](https://learn.microsoft.com/en-us/azure/dev-box/quickstart-configure-dev-box-service) and [Creating a Dev Box](https://learn.microsoft.com/en-us/azure/dev-box/quickstart-create-dev-box). These steps should take about an hour to complete.
+I followed Microsoft's documentation to create a dev box using Microsoft Dev Box. I found the documentation to be straightforward to follow; there are also several tutorial videos online from developers, if you prefer to see someone walk through the steps live. You'll need to complete two steps of documentation to get your dev box up and running: [Setting Up Your Dev Box Service](https://learn.microsoft.com/azure/dev-box/quickstart-configure-dev-box-service) and [Creating a Dev Box](https://learn.microsoft.com/azure/dev-box/quickstart-create-dev-box). These steps should take about an hour to complete.
 
 Once your dev box is running, you will be able to use the virtual machine as if you are on a Windows computer.
 
@@ -61,11 +61,11 @@ From here, you can follow the ["System Requirements"](https://microsoft.github.i
 
 Microsoft Dev Box is a great tool when your team is ready for a larger level of investment in the Windows platform. Its feature offerings of cloud-based infrastructure, pre-configured dev boxes, and Intune secured workstations are great for enterprise-scale development.
 
-Microsoft Dev Box does require several admin and configuration steps to get started, so if a developer is looking to quickly experiment with RNW within a VM, Parallels or another virtual machine offering may be a good option to get started with. Then, once the developer is ready to scale their Windows VM usage across many developers to build large production experiences, Microsoft Dev Box will become a better option.
+Microsoft Dev Box does [require several admin and configuration steps](https://learn.microsoft.com/azure/dev-box/quickstart-configure-dev-box-service) to get started, so if a developer is looking to quickly experiment with RNW within a VM, Parallels or another virtual machine offering may be a good option to get started with. Then, once the developer is ready to scale their Windows VM usage across many developers to build large production experiences, Microsoft Dev Box will become a better option.
 
 ## Overall Takeaways
 
-In this post, I looked at two options for building React Native for Windows apps from Mac devices using Windows VMs. As I close out my content for today, I want to emphasize a few key points. Below is a table which captures the scenario comparisons between Microsoft Dev Box and Parallels.
+In this post, I looked at two options for building React Native for Windows apps from Mac devices using Windows VMs. Below is a table which captures the scenario comparisons between Microsoft Dev Box and Parallels.
 
 | Feature                                          | Microsoft Dev Box | Parallels |
 | ------------------------------------------------ | ----------------- | --------- |
@@ -77,8 +77,10 @@ In this post, I looked at two options for building React Native for Windows apps
 | Scale Windows VM usage across several developers | YES               |           |
 | Pre-configured dev boxes                         | YES               |           |
 
+I want to callout that, when your company is ready to invest in supporting Windows, having dedicated Windows hardware will be best developer experience.
+
 As you reach the end of reading, I encourage you to give React Native for Windows and Windows VMs a try! To get started with React Native for Windows visit [aka.ms/reactnative](https://microsoft.github.io/react-native-windows/). If you have any feedback or questions for the React Native for Windows team, you can reach out to us on GitHub at [microsoft/react-native-windows](https://github.com/microsoft/react-native-windows). We want to hear about your developer experience!
 
 ---
 
-You can also follow us on Twitter [@ReactNativeMSFT](https://twitter.com/reactnativemsft) to keep up to date on news, feature roadmaps, and more.
+You can also follow us on X [@ReactNativeMSFT](https://x.com/reactnativemsft) to keep up to date on news, feature roadmaps, and more.
