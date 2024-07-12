@@ -5,20 +5,18 @@ post_slug: 2024-07-18-running-rnw-from-a-mac.md
 post_date: 2024-07-18 12:00:00
 categories: react-native // don't change the category
 tags: talk, conference, chain-react-conf, react-native, windows, mac
-summary: Owning a Windows device is not a requirement to build and ship Windows experiences. In this blog post, I'll walk through how to develop React Native for Windows applications from your MacOS device.
+summary: Owning a Windows device is not a requirement to build and ship Windows experiences. In this blog post, I'll walk through my investigation of how to develop React Native for Windows applications from a MacBook.
 ---
 
 Last year, I gave a talk at the Chain React conference ["Building for Microsoft: Stories from React Native Windows Maintainers"](https://www.youtube.com/watch?v=kMJNEFHj8b8&t=13s&pp=ygUeY2hhaW4gcmVhY3QgMjAyMyBjaGlhcmEgbW9vbmV5) and spoke all about the recent work Microsoft was doing with the React Native for Desktop platform and how Microsoft is leveraging React Native within key products such as Office and the Windows OS.
 
-I thoroughly enjoyed my experience last year as a speaker. I also loved the conversations I had with developers at the conference after my talk. It was so great to hear how many of you were excited by React Native for Desktop and that our message that Microsoft has bet on this platform has landed.
+After the talk, I had lots of discussions with developers at the conference. In all the conversations, one comment rang especially clearly: _*"React Native for Windows sounds great! I'd love to give it a try on my product…but I use a Mac as my development device."*_ Many developers were excited by React Native for Windows, but thought they were unable to give the platform a try because they used a Mac as their development machine and didn't have access to a Windows device.
 
-In all the conversations, one comment rang especially clearly: _*"React Native for Windows sounds great! I'd love to give it a try on my product…but I use a Mac as my development device."*_ Many of you were excited by React Native for Windows, but thought you were unable to give the platform a try because you use a Mac as your development machine and didn't have access to a Windows device.
+The React Native for Windows team has heard the community feedback. While running on a Windows device will be the best experience for developing on Windows, we recognize that not everyone involved in a development team can have access to multiple devices to develop for different operating systems. We also see that MacBook computers are used widely within the React Native developer community.
 
-The React Native for Windows team has heard the community feedback. While running on a Windows device will be the best experience for developing on Windows; we recognize that not everyone involved in a development team can have access to multiple devices to develop for different operating systems. We also see that Mac computers are used widely within the React Native developer community.
+In this blog post, I'm going to walk through a few options for how to develop React Native for Windows applications from your MacBook computer because owning a Windows device is not a requirement to build and ship Windows experiences.
 
-In today's blog post, I'm going to walk through a few options for how to develop React Native for Windows applications from your Mac computer because owning a Windows device is not a requirement to build and ship Windows experiences.
-
-To build Windows experiences from a non-Windows device, we'll leverage virtual machine software. There are several options you have as a developer to spin-up a Windows VM from a Mac computer including Parallels, VirtualBox, VMWare, and Microsoft Dev Box to name a few. In this post, I'll walk through my experience using Parallels and Microsoft Dev Box.
+To do this, we'll leverage virtual machine software. There are several options you have as a developer to spin-up a Windows VM from a Mac computer including Parallels, VirtualBox, VMWare, and Microsoft Dev Box to name a few. In this post, I'll walk through my experience using Parallels and Microsoft Dev Box to build React Native for Windows applications from a MacBook.
 
 ## Creating a Windows VM using Parallels
 
