@@ -1,5 +1,5 @@
 ---
-post_title: "Building React Native for Windows Apps from a MacOS Device"
+post_title: "Building React Native for Windows Apps from a Mac"
 author1: chiaramooney
 post_slug: 2024-07-18-running-rnw-from-a-mac.md
 post_date: 2024-07-18 12:00:00
