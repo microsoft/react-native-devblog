@@ -49,7 +49,7 @@ Before you get started creating a VM with Microsoft Dev Box, there are a couple 
 1. You will also need a work or school Microsoft Account (MSA). Personal or guest MSAs cannot be used with the Dev Box portal at this time.
 1. Your machine will need to be managed with [Microsoft Intune](https://www.microsoft.com/security/business/Microsoft-Intune).
 
-I followed Microsoft's documentation to create a dev box using Microsoft Dev Box. I found the documentation to be straightforward to follow; there are also several tutorial videos online from developers, if you prefer to see someone walk through the steps live. You'll need to complete two steps to get your dev box up and running: [Setting Up Your Dev Box Service](https://learn.microsoft.com/azure/dev-box/quickstart-configure-dev-box-service) and [Creating a Dev Box](https://learn.microsoft.com/azure/dev-box/quickstart-create-dev-box). These steps should take about an hour to complete.
+I followed Microsoft's documentation to create a dev box using Microsoft Dev Box. I found the documentation to be straightforward to follow, and there are also several tutorial videos online from developers if you prefer to see someone walk through the steps live. You'll need to complete two steps to get your dev box up and running: [Setting Up Your Dev Box Service](https://learn.microsoft.com/azure/dev-box/quickstart-configure-dev-box-service) and [Creating a Dev Box](https://learn.microsoft.com/azure/dev-box/quickstart-create-dev-box). These steps should take about an hour to complete.
 
 Once your dev box is running, you will be able to use the virtual machine as if you are on a Windows computer.
 
