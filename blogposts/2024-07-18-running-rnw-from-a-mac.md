@@ -8,7 +8,7 @@ tags: talk, conference, chain-react-conf, react-native, windows, mac
 summary: Owning a Windows PC is not a requirement to build and ship Windows experiences. In this blog post, I'll walk through my investigation of how to develop React Native for Windows applications from a Mac.
 ---
 
-Last year, I gave a talk at the Chain React conference ["Building for Microsoft: Stories from React Native Windows Maintainers"](https://www.youtube.com/watch?v=kMJNEFHj8b8&t=13s&pp=ygUeY2hhaW4gcmVhY3QgMjAyMyBjaGlhcmEgbW9vbmV5) and spoke all about the recent work Microsoft was doing with the React Native for Desktop platform and how Microsoft is leveraging React Native within key products such as Office and the Windows OS.
+Last year, I gave a talk at the Chain React conference ["Building for Microsoft: Stories from React Native Windows Maintainers"](https://www.youtube.com/watch?v=kMJNEFHj8b8&t=13s&pp=ygUeY2hhaW4gcmVhY3QgMjAyMyBjaGlhcmEgbW9vbmV5) where I spoke about the recent work Microsoft had done with the React Native for Desktop platform, and how Microsoft leverages React Native within key products such as Office and within the Windows OS.
 
 After the talk, I had lots of discussions with developers at the conference. In all the conversations, one comment rang especially clearly: _*"React Native for Windows sounds great! I'd love to give it a try on my product…but I use a Mac as my development device."*_ Many developers were excited by React Native for Windows, but thought they were unable to give the platform a try because they used a Mac as their development machine and didn't have access to a Windows device.
 
