@@ -79,9 +79,9 @@ In this post, I looked at two options for building React Native for Windows apps
 | Scale Windows VM usage across several developers | ✅                |           |
 | Pre-configured dev boxes                         | ✅                |           |
 
-I want to callout that, when your company is ready to invest in supporting Windows, having dedicated Windows hardware will be best developer experience.
+And of course, while virtual machines are great, we recommend using dedicated Windows hardware when you can for a development environment that's most accurately connected to the experience of your users.
 
-As you reach the end of reading, I encourage you to give React Native for Windows and Windows VMs a try! To get started with React Native for Windows visit [aka.ms/reactnative](https://microsoft.github.io/react-native-windows/). If you have any feedback or questions for the React Native for Windows team, you can reach out to us on GitHub at [microsoft/react-native-windows](https://github.com/microsoft/react-native-windows). We want to hear about your developer experience!
+I encourage you to give React Native for Windows and Windows VMs a try! To get started with React Native for Windows visit [aka.ms/reactnative](https://microsoft.github.io/react-native-windows/). If you have any feedback or questions for the React Native for Windows team, you can reach out to us on GitHub at [microsoft/react-native-windows](https://github.com/microsoft/react-native-windows). We want to hear about your developer experience!
 
 ---
 
