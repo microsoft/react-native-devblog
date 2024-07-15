@@ -1,5 +1,5 @@
 ---
-post_title: "Building React Native for Windows Apps from a MacOS Device"
+post_title: "Building React Native for Windows Apps from a Mac"
 author1: chiaramooney
 post_slug: 2024-07-18-running-rnw-from-a-mac.md
 post_date: 2024-07-18 12:00:00
@@ -12,7 +12,7 @@ Last year, I gave a talk at the Chain React conference ["Building for Microsoft:
 
 After the talk, I had lots of discussions with developers at the conference. In many of the conversations, one comment rang especially clearly: _*"React Native for Windows sounds great! I'd love to give it a try on my product… but I use a Mac as my development device."*_ Many developers were excited by React Native for Windows, but thought they were unable to give the platform a try because they used a Mac as their development machine and didn't have access to a Windows device.
 
-The React Native for Windows team has heard the community feedback. While running on a Windows device will be the best experience for developing on Windows, we recognize that not everyone involved in a development team can have access to multiple devices to develop for different operating systems. We also see that MacBook computers are used widely within the React Native developer community.
+The React Native for Windows team has heard the community feedback. While running on a Windows device will be the best experience for developing on Windows, we recognize that not everyone involved in a development team can have access to multiple devices to develop for different operating systems. We also see that Macs are used widely within the React Native developer community.
 
 **Owning a Windows PC is not a requirement to build and ship Windows experiences using React Native for Windows.** In this blog post, I'm going to walk through a few options for how to develop React Native for Windows applications from your MacBook using several virtual machine options.
 
@@ -30,11 +30,11 @@ With my virtual machine running, I was able to use the VM as if I was on a Windo
 
 ## Takeaways about Parallels
 
-In less than an hour, I was able to spin up a Windows VM on my Mac and use that environment to build a React Native for Windows app. Windows VMs allowed me to quickly experiment with adding Windows support to my existing React Native app because of the low level of overhead to get a VM up and running.
+Windows VMs via Parallels allowed me to quickly (in less than an hour!) experiment with adding Windows support to my existing React Native app.
 
 ## Creating a Windows VM using Microsoft Dev Box
 
-The second Windows VM option I tried was [Microsoft Dev Box](https://azure.microsoft.com/products/dev-box/). Microsoft Dev Box is a [Microsoft Azure](https://azure.microsoft.com) product that allows developers to spin up a Windows VM from most modern computers including MacOS devices.
+The second Windows VM option I tried was [Microsoft Dev Box](https://azure.microsoft.com/products/dev-box/). Microsoft Dev Box is a [Microsoft Azure](https://azure.microsoft.com) product that allows developers to spin up a Windows VM from most modern computers including macOS devices.
 
 Microsoft Dev Box supports:
 
@@ -49,7 +49,7 @@ Before you get started creating a VM with Microsoft Dev Box, there are a couple 
 1. You will also need a work or school Microsoft Account (MSA). Personal or guest MSAs cannot be used with the Dev Box portal at this time.
 1. Your machine will need to be managed with [Microsoft Intune](https://www.microsoft.com/security/business/Microsoft-Intune).
 
-I followed Microsoft's documentation to create a dev box using Microsoft Dev Box. I found the documentation to be straightforward to follow; there are also several tutorial videos online from developers, if you prefer to see someone walk through the steps live. You'll need to complete two steps to get your dev box up and running: [Setting Up Your Dev Box Service](https://learn.microsoft.com/azure/dev-box/quickstart-configure-dev-box-service) and [Creating a Dev Box](https://learn.microsoft.com/azure/dev-box/quickstart-create-dev-box). These steps should take about an hour to complete.
+I followed Microsoft's documentation to create a dev box using Microsoft Dev Box. I found the documentation to be straightforward to follow, and there are also several tutorial videos online from developers if you prefer to see someone walk through the steps live. You'll need to complete two steps to get your dev box up and running: [Setting Up Your Dev Box Service](https://learn.microsoft.com/azure/dev-box/quickstart-configure-dev-box-service) and [Creating a Dev Box](https://learn.microsoft.com/azure/dev-box/quickstart-create-dev-box). These steps should take about an hour to complete.
 
 Once your dev box is running, you will be able to use the virtual machine as if you are on a Windows computer.
 
