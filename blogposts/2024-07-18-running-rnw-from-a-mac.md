@@ -30,7 +30,7 @@ With my virtual machine running, I was able to use the VM as if I was on a Windo
 
 ## Takeaways about Parallels
 
-In less than an hour, I was able to spin up a Windows VM on my Mac and use that environment to build a React Native for Windows app. Windows VMs allowed me to quickly experiment with adding Windows support to my existing React Native app because of the low level of overhead to get a VM up and running.
+Windows VMs via Parallels allowed me to quickly (in less than an hour!) experiment with adding Windows support to my existing React Native app.
 
 ## Creating a Windows VM using Microsoft Dev Box
 
