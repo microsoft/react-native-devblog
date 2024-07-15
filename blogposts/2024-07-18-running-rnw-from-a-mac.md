@@ -34,7 +34,7 @@ In less than an hour, I was able to spin up a Windows VM on my Mac and use that 
 
 ## Creating a Windows VM using Microsoft Dev Box
 
-The second Windows VM option I tried was [Microsoft Dev Box](https://azure.microsoft.com/products/dev-box/). Microsoft Dev Box is a [Microsoft Azure](https://azure.microsoft.com) product that allows developers to spin up a Windows VM from most modern devices including MacOS devices.
+The second Windows VM option I tried was [Microsoft Dev Box](https://azure.microsoft.com/products/dev-box/). Microsoft Dev Box is a [Microsoft Azure](https://azure.microsoft.com) product that allows developers to spin up a Windows VM from most modern computers including MacOS devices.
 
 Microsoft Dev Box supports:
 
