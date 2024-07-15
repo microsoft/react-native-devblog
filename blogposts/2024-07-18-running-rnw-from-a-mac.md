@@ -5,7 +5,7 @@ post_slug: 2024-07-18-running-rnw-from-a-mac.md
 post_date: 2024-07-18 12:00:00
 categories: react-native // don't change the category
 tags: talk, conference, chain-react-conf, react-native, windows, mac
-summary: Owning a Windows device is not a requirement to build and ship Windows experiences. In this blog post, I'll walk through my investigation of how to develop React Native for Windows applications from a MacBook.
+summary: Owning a Windows PC is not a requirement to build and ship Windows experiences. In this blog post, I'll walk through my investigation of how to develop React Native for Windows applications from a Mac.
 ---
 
 Last year, I gave a talk at the Chain React conference ["Building for Microsoft: Stories from React Native Windows Maintainers"](https://www.youtube.com/watch?v=kMJNEFHj8b8&t=13s&pp=ygUeY2hhaW4gcmVhY3QgMjAyMyBjaGlhcmEgbW9vbmV5) and spoke all about the recent work Microsoft was doing with the React Native for Desktop platform and how Microsoft is leveraging React Native within key products such as Office and the Windows OS.
