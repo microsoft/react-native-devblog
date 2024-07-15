@@ -22,7 +22,7 @@ To get started building Windows experiences from a non-Windows device, you can l
 
 One option to create VMs on macOS is [Parallels](https://www.parallels.com/), which is software that can be locally installed and supports virtualizing a variety of operating systems including Windows 11.
 
-After signing up for the [Parallels free trial](https://www.parallels.com/products/desktop/trial/), you will be given a download of the Parallels Desktop software and installation instructions. After Parallels Desktop was installed and running, the software will prompt you to install Windows 11. From there, your Windows VM is ready to be run.
+After signing up for the [Parallels free trial](https://www.parallels.com/products/desktop/trial/), you will be given a download of the Parallels Desktop software and installation instructions. After installing and running Parallels, you will be prompted to install Windows 11. From there, your Windows VM is ready to be run.
 
 With my virtual machine running, I was able to use the VM as if I was on a Windows computer. From here, I could follow the ["System Requirements"](https://microsoft.github.io/react-native-windows/docs/rnw-dependencies) and ["Getting Started"](https://microsoft.github.io/react-native-windows/docs/getting-started) documentation for React Native for Windows. Parallels had access to my local files, so I did not need to redownload any source code to get started developing. When I was finished with my development session, I was able to close the virtual machine and the machine's state was saved for next time.
 
