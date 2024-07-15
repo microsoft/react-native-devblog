@@ -63,7 +63,7 @@ Unlike Parallels, dev box runs in a cloud and does not have access to your local
 
 Microsoft Dev Box is a great tool when your team is ready for a larger level of investment in the Windows platform. Its feature offerings of cloud-based infrastructure, pre-configured dev boxes, and Intune secured workstations are great for enterprise-scale development.
 
-Microsoft Dev Box does [require several admin and configuration steps](https://learn.microsoft.com/azure/dev-box/quickstart-configure-dev-box-service) to get started, so if a developer is looking to quickly experiment with RNW within a VM, Parallels or another virtual machine offering may be a good option to get started with. Then, once the developer is ready to scale their Windows VM usage across many developers to build large production experiences, Microsoft Dev Box will become a better option.
+Microsoft Dev Box requires several [admin and configuration steps](https://learn.microsoft.com/azure/dev-box/quickstart-configure-dev-box-service) to get started, so if you're looking to quickly experiment with RNW within a VM, Parallels or another virtual machine offering may be a good option to get started with. Then once you're ready to scale your Windows VM usage across many developers to build large production experiences, Microsoft Dev Box could become a better option.
 
 ## Overall Takeaways
 
