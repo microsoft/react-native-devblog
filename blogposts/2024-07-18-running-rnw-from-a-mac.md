@@ -12,7 +12,7 @@ Last year, I gave a talk at the Chain React conference ["Building for Microsoft:
 
 After the talk, I had lots of discussions with developers at the conference. In many of the conversations, one comment rang especially clearly: _*"React Native for Windows sounds great! I'd love to give it a try on my product… but I use a Mac as my development device."*_ Many developers were excited by React Native for Windows, but thought they were unable to give the platform a try because they used a Mac as their development machine and didn't have access to a Windows device.
 
-The React Native for Windows team has heard the community feedback. While running on a Windows device will be the best experience for developing on Windows, we recognize that not everyone involved in a development team can have access to multiple devices to develop for different operating systems. We also see that MacBook computers are used widely within the React Native developer community.
+The React Native for Windows team has heard the community feedback. While running on a Windows device will be the best experience for developing on Windows, we recognize that not everyone involved in a development team can have access to multiple devices to develop for different operating systems. We also see that Macs are used widely within the React Native developer community.
 
 **Owning a Windows PC is not a requirement to build and ship Windows experiences using React Native for Windows.** In this blog post, I'm going to walk through a few options for how to develop React Native for Windows applications from your MacBook using several virtual machine options.
 
