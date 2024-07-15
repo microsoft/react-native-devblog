@@ -20,7 +20,7 @@ To get started building Windows experiences from a non-Windows device, you can l
 
 ## Creating a Windows VM using Parallels
 
-One option to create VMs on macOS is [Parallels](https://www.parallels.com/). Parallels is a software which can be locally installed on a developer's MacOS machine to be used to create virtual machines of a variety of operating systems.
+One option to create VMs on macOS is [Parallels](https://www.parallels.com/), which is software that can be locally installed and supports virtualizing a variety of operating systems including Windows 11.
 
 After signing up for the [Parallels free trial](https://www.parallels.com/products/desktop/trial/), you will be given a download of the Parallels Desktop software and installation instructions. After Parallels Desktop was installed and running, the software will prompt you to install Windows 11. From there, your Windows VM is ready to be run.
 
