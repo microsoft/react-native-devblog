@@ -34,7 +34,7 @@ Windows VMs via Parallels allowed me to quickly (in less than an hour!) experime
 
 ## Creating a Windows VM using Microsoft Dev Box
 
-The second Windows VM option I tried was [Microsoft Dev Box](https://azure.microsoft.com/products/dev-box/). Microsoft Dev Box is a [Microsoft Azure](https://azure.microsoft.com) product that allows developers to spin up a Windows VM from most modern computers including MacOS devices.
+The second Windows VM option I tried was [Microsoft Dev Box](https://azure.microsoft.com/products/dev-box/). Microsoft Dev Box is a [Microsoft Azure](https://azure.microsoft.com) product that allows developers to spin up a Windows VM from most modern computers including macOS devices.
 
 Microsoft Dev Box supports:
 
