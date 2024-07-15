@@ -69,13 +69,13 @@ In this post, I looked at two options for building React Native for Windows apps
 
 | Feature                                          | Microsoft Dev Box | Parallels |
 | ------------------------------------------------ | ----------------- | --------- |
-| Locally installed virtual machine software       |                   | YES       |
-| Cloud-based virtual machine                      | YES               |           |
-| Easy to follow documentation                     | YES               | YES       |
-| Great for quick experimentation with Windows     |                   | YES       |
-| Great for enterprise development                 | YES               |           |
-| Scale Windows VM usage across several developers | YES               |           |
-| Pre-configured dev boxes                         | YES               |           |
+| Locally installed virtual machine software       |                   | ✅        |
+| Cloud-based virtual machine                      | ✅                |           |
+| Easy to follow documentation                     | ✅                | ✅        |
+| Great for quick experimentation with Windows     |                   | ✅        |
+| Great for enterprise development                 | ✅                |           |
+| Scale Windows VM usage across several developers | ✅                |           |
+| Pre-configured dev boxes                         | ✅                |           |
 
 I want to callout that, when your company is ready to invest in supporting Windows, having dedicated Windows hardware will be best developer experience.
 
