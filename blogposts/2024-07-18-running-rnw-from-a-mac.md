@@ -53,7 +53,9 @@ I followed Microsoft's documentation to create a dev box using Microsoft Dev Box
 
 Once your dev box is running, you will be able to use the virtual machine as if you are on a Windows computer.
 
-From here, you can follow the ["System Requirements"](https://microsoft.github.io/react-native-windows/docs/rnw-dependencies) and ["Getting Started"](https://microsoft.github.io/react-native-windows/docs/getting-started) documentation for React Native for Windows. Dev box will not have access to your local files, so you will need to redownload any source code that you need to get started developing. When you are finished with your development session and have shut down the virtual machine in the Dev Box portal, your machine's state will be saved for next time.
+Same as with Parallels above, you can follow the ["System Requirements"](https://microsoft.github.io/react-native-windows/docs/rnw-dependencies) and ["Getting Started"](https://microsoft.github.io/react-native-windows/docs/getting-started) documentation for React Native for Windows to get set up. 
+
+Unlike Parallels, dev box runs in a cloud and does not have access to your local files, so you will need to redownload any source code that you need to get started developing. When you are finished with your development session and have shut down the virtual machine in the Dev Box portal, your machine's state will be saved for next time.
 
 ![](assets/2024-07-18-running-rnw-from-a-mac/Screenshot-MicrosoftDevBox.jpg)
 
