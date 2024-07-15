@@ -46,7 +46,7 @@ Microsoft Dev Box supports:
 Before you get started creating a VM with Microsoft Dev Box, there are a couple troubleshooting callouts I want to mention:
 
 1. You will need an Azure subscription that is not the ["free trial"](https://azure.microsoft.com/free/) subscription. You must upgrade to the ["Pay As You Go"](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/) subscription to use Microsoft Dev Box, but you can use the $200 of free credits that you gained via the "free trial" subscription as initial payment within the “Pay As You Go” plan. If you try to create a Dev Box Definition with the "free trial" Azure subscription, you will receive a "Quota has been reached" error.
-1. You will also need a work or school MSA (Microsoft Account). Personal or guest MSA’s cannot be used with the Dev Box portal at this time.
+1. You will also need a work or school Microsoft Account (MSA). Personal or guest MSAs cannot be used with the Dev Box portal at this time.
 1. Your machine will need to be managed with [Microsoft Intune](https://www.microsoft.com/security/business/Microsoft-Intune).
 
 I followed Microsoft's documentation to create a dev box using Microsoft Dev Box. I found the documentation to be straightforward to follow; there are also several tutorial videos online from developers, if you prefer to see someone walk through the steps live. You'll need to complete two steps of documentation to get your dev box up and running: [Setting Up Your Dev Box Service](https://learn.microsoft.com/azure/dev-box/quickstart-configure-dev-box-service) and [Creating a Dev Box](https://learn.microsoft.com/azure/dev-box/quickstart-create-dev-box). These steps should take about an hour to complete.
