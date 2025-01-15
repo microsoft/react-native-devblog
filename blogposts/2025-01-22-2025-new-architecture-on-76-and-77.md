@@ -5,16 +5,16 @@ post_slug: 2025-22-25-new-architecture-on-0.76-0.77
 post_date: 2025-22-25 12:00:00
 categories: react-native
 tags: react-native, releases, react-native-windows
-summary: We've recently released React Native Windows 0.76 and 0.77- marking the first time we invite developers to create RNW experiences on the new architecture
+summary: We've recently released React Native Windows 0.76 and 0.77- marking the first time we invite developers to create RNW experiences on the new architecture.
 ---
 
-React Native Windows has exciting updates with versions 0.76 and 0.77! While React Native made the New Architecture the default starting in 0.76 —introducing improvements like the advanced Fabric rendering system— React Native Windows is taking a more gradual approach. Version 0.76 offers our first preview of the New Architecture, and 0.77 builds on it with stabilization and new features. Rest assured, we’re continuing to maintain reliability and full support for the default Paper architecture as we look ahead. Let's dive in and see what’s coming!
+React Native Windows has exciting updates with the new released versions 0.76 and 0.77! While React Native made the New Architecture the default starting in 0.76 —introducing improvements like the advanced Fabric rendering system— React Native Windows is taking a more gradual approach. We’re still actively refining the New Architecture to ensure it meets the high standards developers expect, so it’s not the default just yet. With version 0.76, we’re offering our first preview of the New Architecture, and 0.77 builds on this foundation with key stabilization and new features. At the same time, we remain fully committed to maintaining reliability and robust support for the default Paper architecture. Let’s dive in and explore what’s new!"
 
 # New Architecture
 
 React Native for Windows’ New Architecture is here—but with some caveats. It’s best suited for early adopters ready to explore a work-in-progress experience with limited documentation. If you're up for it, this is your chance to preview the future of React Native Windows development! 🚀
 
-In the Old Architecture (Paper), we relied on the Universal Windows Platform (UWP). With the New Architecture (Fabric), we’ve transitioned to the modern Windows App SDK. This upgrade allows us to leverage React Native’s cross-platform rendering logic while better integrating Windows-specific features.
+In the Old Architecture (Paper), we relied on the Universal Windows Platform ([UWP](https://learn.microsoft.com/en-us/windows/uwp/)). With the New Architecture (Fabric), we’ve transitioned to the modern [Windows App SDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/). This upgrade allows us to leverage React Native’s cross-platform rendering logic while better integrating Windows-specific features.
 
 All New Architecture apps will now be Win32-based and built on the Windows App SDK, aligning with Microsoft’s latest app development recommendations. Meanwhile, Old Architecture apps will remain UWP-based, and it’s still possible to create and maintain them using legacy templates.
 
@@ -24,33 +24,33 @@ Have more questions? Read our [FAQ in our new architecture landing page](https:/
 
 ## Steps on creating on new architecture application
 
-Let's dive into creating a new architecture application. You'll find the steps below are almost exactly the same as creating a old architecture application - with the only change being is specifiying new architecture template in step 4.
+Let's dive into creating a new architecture application. You'll find the steps below are almost exactly the same as creating a old architecture application - with the only change being is specifying a new architecture template in step 4.
 
 1. Create a new React Native Project
 
-npx --yes @react-native-community/cli@latest init <projectName> --version "latest"
+`npx --yes @react-native-community/cli@latest init <projectName> --version "latest"`
 
 2. Navigate into this newly created directory
 
-cd <projectName>
+`cd <projectName>`
 
 3. Add React Native Windows to your project's dependencies
 
-yarn add react-native-windows@^0.77.0
+`yarn add react-native-windows@^0.77.0`
 
 4. Initialize the React Native Windows native code and projects with the [new architecture templates](https://microsoft.github.io/react-native-windows/docs/init-windows-cli#templates)
 
-yarn react-native init-windows --template cpp-app --overwrite
+`yarn react-native init-windows --template cpp-app --overwrite`
 
 5. Run your RNW app as normal
 
-npx react-native run-windows
+`npx react-native run-windows`
 
-You have now successfully created a RNW app on the new architecture!
+Congrats, you’ve just created an RNW app using the new architecture! 🎉
 
 // PLACEHOLDER: Insert clip of newly made Fabric application
 
-## New Architecture changes in 0.76 and 0.77
+## New Architecture Changes in 0.76 and 0.77
 
 ### New Templates
 
