@@ -10,7 +10,7 @@ summary: We've recently released React Native Windows 0.76 and 0.77- marking the
 
 React Native Windows has exciting updates with the new released versions 0.76 and 0.77! While React Native made the New Architecture the default starting in 0.76 —introducing improvements like the advanced Fabric rendering system— React Native Windows is taking a more gradual approach. We’re still actively refining the New Architecture to ensure it meets the high standards our developers expect, so it’s not the default just yet. With version 0.76, we’re offering our first preview of the New Architecture, and 0.77 builds on this foundation with key stabilization and new features. At the same time, we remain fully committed to maintaining reliability and robust support for the default Paper architecture. Let’s dive in and explore what’s new!"
 
-# New Architecture
+# 🌟 New Architecture
 
 React Native for Windows’ New Architecture is here—but with some caveats. It’s best suited for early adopters ready to explore a work-in-progress experience with limited documentation. If you're up for it, this is your chance to preview the future of React Native Windows development! 🚀
 
@@ -22,7 +22,7 @@ While there are no immediate plans to deprecate Old Architecture, future investm
 
 Have more questions? Read our [FAQ in our new architecture landing page](https://microsoft.github.io/react-native-windows/docs/new-architecture#faq)!
 
-## Steps on creating on new architecture application
+## 🛠️ Steps on creating on new architecture application
 
 Let's dive into creating a new architecture application. You'll find the steps below are almost exactly the same as creating a old architecture application - with the only change being is specifying a new architecture template in step 4.
 
@@ -50,9 +50,9 @@ Congrats, you’ve just created an RNW app using the new architecture! 🎉
 
 [new-fabric-app-2025](assets/2025-01-24-2025-new-architecture-on-76-and-77/new-fabric-app.gif)
 
-## New Architecture Changes in 0.76 and 0.77
+## 🚧 New Architecture Changes in 0.76 and 0.77
 
-### New Templates
+### 📑 New Templates
 
 With the preview release of the new architecture, we're introducing brand-new templates! These templates are built to use the precompiled Microsoft.ReactNative NuGet packages by default, enabling faster build times. In the previous architecture, this experience was experimental and had limited support. However, in the new architecture, it has been the primary approach from day one.
 
@@ -65,7 +65,7 @@ In version 0.77, we further refined these templates, updating CLI commands like 
 
 Check out the full list of supported templates [here](https://microsoft.github.io/react-native-windows/docs/init-windows-cli#templates).
 
-### Introducing Modal
+### 🪟 Introducing Modal
 
 In the old UWP-based implementation, we had to work around some frustrating limitations—Modal wasn’t an option, so developers had to use Windows-specific components like Flyout and Popup instead. This created extra work for those transitioning iOS or Android apps, as they needed to rework their code specifically for Windows. But good news—those limitations are a thing of the past! With the New Architecture, those roadblocks are gone, and we’re thrilled to introduce the new *(for RNW)* [Modal component](https://reactnative.dev/docs/modal) in 0.77. We hope customers using Flyout and Popup will find it easy to switch over to Modal and enjoy a more seamless cross-platform experience!
 
@@ -74,11 +74,11 @@ In the old UWP-based implementation, we had to work around some frustrating limi
 
 As a brand-new component, Modal is still a work in progress, and we’re actively enhancing its functionality. Currently, it supports the `visible`, `onShow`, and `onDismiss` properties/events. We're hard at work adding support for `transparent`, `backdropColor`, and exciting Windows-specific features like setting a title bar and moving the modal outside of the application boundaries. Stay tuned for more updates!
 
-### New Features for Accessibility, TextInput, and Custom Components
+### 👩‍💻 New Features for Accessibility, TextInput, and Custom Components
 
 The 0.77 release of the new architecture brings exciting updates to explore! You can now enable custom controls to implement the `expand`/`collapse` action, support a wider range of accessibility features, and take advantage of new properties like `autocapitalize` and `cursor` in TextInput. Check out all the details in our [release notes for 0.77](PLACEHOLDER: link release notes) under the section `New Architecture-Specific Changes`.
 
-## Commitment to Reliability in the Old Architecture
+## 🛡️ Commitment to Reliability in the Old Architecture
 
 While we’re focused on rolling out new features for the new architecture, we’re still fully committed to supporting the old architecture. Although no new features are being added, we've made several key reliability improvements. These include resolving Flyout/Alert crashes on Windows 10, optimizing our Text component, ensuring consistent button sizes when pressed, and much more. Additionally, we've added support for TurboModule event emitters, enhanced new project namespace/cleanup, and increased the method parameter limit from 7 to 10.
 
