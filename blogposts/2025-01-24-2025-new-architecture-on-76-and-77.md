@@ -1,14 +1,14 @@
 ---
 post_title: "A look into the new architecture on RNW 0.76 and 0.77!"
 author1: tatianakapos
-post_slug: 2025-22-25-new-architecture-on-0.76-0.77
-post_date: 2025-22-25 12:00:00
+post_slug: 2025-24-25-new-architecture-on-0.76-0.77
+post_date: 2025-24-25 12:00:00
 categories: react-native
 tags: react-native, releases, react-native-windows
 summary: We've recently released React Native Windows 0.76 and 0.77- marking the first time we invite developers to create RNW experiences on the new architecture.
 ---
 
-React Native Windows has exciting updates with the new released versions 0.76 and 0.77! While React Native made the New Architecture the default starting in 0.76 —introducing improvements like the advanced Fabric rendering system— React Native Windows is taking a more gradual approach. We’re still actively refining the New Architecture to ensure it meets the high standards developers expect, so it’s not the default just yet. With version 0.76, we’re offering our first preview of the New Architecture, and 0.77 builds on this foundation with key stabilization and new features. At the same time, we remain fully committed to maintaining reliability and robust support for the default Paper architecture. Let’s dive in and explore what’s new!"
+React Native Windows has exciting updates with the new released versions 0.76 and 0.77! While React Native made the New Architecture the default starting in 0.76 —introducing improvements like the advanced Fabric rendering system— React Native Windows is taking a more gradual approach. We’re still actively refining the New Architecture to ensure it meets the high standards our developers expect, so it’s not the default just yet. With version 0.76, we’re offering our first preview of the New Architecture, and 0.77 builds on this foundation with key stabilization and new features. At the same time, we remain fully committed to maintaining reliability and robust support for the default Paper architecture. Let’s dive in and explore what’s new!"
 
 # New Architecture
 
@@ -48,7 +48,7 @@ Let's dive into creating a new architecture application. You'll find the steps b
 
 Congrats, you’ve just created an RNW app using the new architecture! 🎉
 
-// PLACEHOLDER: Insert clip of newly made Fabric application
+[new-fabric-app-2025](assets/2025-01-24-2025-new-architecture-on-76-and-77/new-fabric-app.gif)
 
 ## New Architecture Changes in 0.76 and 0.77
 
@@ -69,7 +69,8 @@ Check out the full list of supported templates [here](https://microsoft.github.i
 
 In the old UWP-based implementation, we had to work around some frustrating limitations—Modal wasn’t an option, so developers had to use Windows-specific components like Flyout and Popup instead. This created extra work for those transitioning iOS or Android apps, as they needed to rework their code specifically for Windows. But good news—those limitations are a thing of the past! With the New Architecture, those roadblocks are gone, and we’re thrilled to introduce the new *(for RNW)* [Modal component](https://reactnative.dev/docs/modal) in 0.77. We hope customers using Flyout and Popup will find it easy to switch over to Modal and enjoy a more seamless cross-platform experience!
 
-// PLACEHOLDER: Insert clip of Modal in rntester or app
+[modal-playground-composition-2025](assets/2025-01-24-2025-new-architecture-on-76-and-77/modal-playground.gif)
+[*View Source Code*](https://github.com/microsoft/react-native-windows/tree/0.77-stable/packages/%40react-native-windows/tester/src/js/examples/Modal)
 
 As a brand-new component, Modal is still a work in progress, and we’re actively enhancing its functionality. Currently, it supports the `visible`, `onShow`, and `onDismiss` properties/events. We're hard at work adding support for `transparent`, `backdropColor`, and exciting Windows-specific features like setting a title bar and moving the modal outside of the application boundaries. Stay tuned for more updates!
 
