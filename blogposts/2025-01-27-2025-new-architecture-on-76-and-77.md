@@ -1,8 +1,8 @@
 ---
 post_title: "A look into the new architecture on RNW 0.76 and 0.77!"
 author1: tatianakapos
-post_slug: 2025-01-24-new-architecture-on-0.76-0.77
-post_date: 2025-01-24 12:00:00
+post_slug: 2025-01-27-new-architecture-on-0.76-0.77
+post_date: 2025-01-27 12:00:00
 categories: react-native
 tags: react-native, releases, react-native-windows
 summary: We've recently released React Native Windows 0.76 and 0.77- marking the first time we invite developers to create RNW experiences on the new architecture.
@@ -61,6 +61,8 @@ We now offer two new templates:
 cpp-app: For React Native Windows Applications (New Architecture, C++, Win32, Hermes)
 cpp-lib: For React Native Windows Turbo Modules (New Architecture, C++)
 
+These templates can be easily used with the react-native init-windows CLI command: `yarn react-native init-windows --template <TemplateName> --overwrite` 
+
 In version 0.77, we further refined these templates, updating CLI commands like `autolink-windows` and `init-windows` to adapt their behavior based on the template used to create the application.
 
 Check out the full list of supported templates [here](https://microsoft.github.io/react-native-windows/docs/init-windows-cli#templates).
@@ -74,7 +76,7 @@ Good news! Those limitations are a thing of the past! With the New Architecture,
 [modal-playground-composition-2025](assets/2025-01-24-2025-new-architecture-on-76-and-77/modal-playground.gif)
 [*View Source Code*](https://github.com/microsoft/react-native-windows/tree/0.77-stable/packages/%40react-native-windows/tester/src/js/examples/Modal)
 
-As a brand-new component, Modal is still a work in progress, and we’re actively enhancing its functionality. Currently, Modal supports the `visible`, `onShow`, and `onDismiss` properties/events. We're hard at work adding support for `transparent`, `backdropColor`, and exciting Windows-specific features like setting a title bar and moving the modal outside of the application boundaries. Stay tuned for more updates!
+As a brand-new component, Modal is still a work in progress, and we’re actively enhancing its functionality. Currently, Modal supports the `visible`, `onShow`, and `onDismiss` properties/events. We're hard at work adding support for `transparent`, `backdropColor`, and exciting Windows-specific features like setting a title bar and moving the modal outside of the application boundaries. Stay tuned in our New Architecture [tracking issue](https://github.com/microsoft/react-native-windows/issues/12042) for more updates!
 
 ### 👩‍💻 New Features for Accessibility, TextInput, and Custom Components
 
