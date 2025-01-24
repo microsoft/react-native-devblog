@@ -22,9 +22,9 @@ While there are no immediate plans to deprecate Old Architecture, future investm
 
 Have more questions? Check out the [New Architecture FAQ](https://microsoft.github.io/react-native-windows/docs/new-architecture#faq)!
 
-## 🛠️ Steps on creating on New Architecture application
+## 🛠️ Steps on creating on New Architecture application on 0.77
 
-Let's dive into creating a new architecture application. You'll find the steps below are almost exactly the same as creating an old architecture application - with the only change being is specifying a new architecture template in step 4.
+Let's dive into creating a new architecture application. These steps are tailored for version 0.77, but you can visit our [Getting Started page](https://microsoft.github.io/react-native-windows/docs/getting-started) for guidance on other versions. You'll find the steps below are almost exactly the same as creating an old architecture application - with the only change being is specifying a new architecture template in step 4.
 
 1. Create a new React Native Project
 
