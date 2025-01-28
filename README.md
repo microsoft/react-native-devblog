@@ -51,7 +51,9 @@ summary: // one of two phrases that will preview the content
 
 ---
 
-You can also follow us on Twitter [@ReactNativeMSFT](https://twitter.com/reactnativemsft) to keep up to date on news, feature roadmaps, and more.
+If you’re interested in getting started with React Native for Windows, check out our website at [aka.ms/reactnative](https://microsoft.github.io/react-native-windows/).
+
+You can also follow us on X [@ReactNativeMSFT](https://twitter.com/reactnativemsft) to keep up to date on news, feature roadmaps, and more.
 ```
 
 They can then work on the markdown file, adding their content and modifying the metadata accordingly.
