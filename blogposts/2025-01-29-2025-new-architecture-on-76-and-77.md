@@ -80,13 +80,13 @@ As a brand-new component, Modal is still a work in progress, and we’re activel
 
 ### 👩‍💻 New Features for Accessibility, TextInput, and Custom Components
 
-The 0.77 release of the new architecture brings exciting updates to explore! You can now enable custom controls to implement the `expand`/`collapse` action, support a wider range of accessibility features, and take advantage of new properties like `autocapitalize` and `cursor` in TextInput. Check out all the details in our [release notes for 0.77](PLACEHOLDER: link release notes) under the section `New Architecture-Specific Changes`.
+The 0.77 release of the new architecture brings exciting updates to explore! You can now enable custom controls to implement the `expand`/`collapse` action, support a wider range of accessibility features, and take advantage of new properties like `autocapitalize` and `cursor` in TextInput. Check out all the details in our [release notes for 0.77](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.77.0) under the section `New Architecture-Specific Changes`.
 
 ## 🛡️ Commitment to Reliability in the Old Architecture
 
 While we’re focused on rolling out new features for the new architecture, we recognize the need to support the many folks that are still on the old architecture. Although no new features are being added to the old architecture, we recently made several key reliability improvements including resolving Flyout/Alert crashes on Windows 10, optimizing the Text component, ensuring consistent button sizes when pressed, and more. Additionally, we've added support for TurboModule event emitters, enhanced new project namespace/cleanup, and increased the method parameter limit from 7 to 10.
 
-For a deeper dive into these reliability improvements, check out our [0.77 release notes](PLACEHOLDER: link release notes) and  our [0.76 release notes](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.76.0)!
+For a deeper dive into these reliability improvements, check out our [0.77 release notes](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.77.0) and  our [0.76 release notes](https://github.com/microsoft/react-native-windows/releases/tag/react-native-windows_v0.76.0)!
 
 ---
 
