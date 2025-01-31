@@ -2,7 +2,7 @@
 post_title: "A look into the new architecture on RNW 0.76 and 0.77!"
 author1: tatianakapos
 post_slug: 2025-01-29-new-architecture-on-0.76-0.77
-post_date: 2025-01-29 12:00:00
+post_date: 2025-01-31 12:00:00
 categories: react-native
 tags: react-native, releases, react-native-windows
 summary: We've recently released React Native Windows 0.76 and 0.77- marking the first time we invite developers to create RNW experiences on the new architecture.
