@@ -13,7 +13,7 @@ For years, Windows developers have been asking the Microsoft client platform tea
 # Windows App Ecosystem
 If you aren’t familiar with the Windows App Ecosystem, here’s a refresher. The Windows App Ecosystem describes the system of platforms, libraries, and frameworks that are used to build modern Windows apps. At the bottom layer of the ecosystem is the computer itself, which consists of drivers and hardware. Above this layer is the Windows Platform SDK which is determined by the version of the Windows OS installed on the computer. Next is Windows App SDK which provides APIs that are determined by the version of your Windows application. You then have any additional Nuget packages, libraries, or other applications that your app might need. Finally, at the top is the Windows application itself. Apps built in the Windows App Ecosystem may use capabilities exposed at each layer.
 
-![](assets/2025-04-30-office-modernize/winappeco-stack.svg)
+![](assets/2025-04-30-office-modernize/winappeco-stack.png)
 
 ## Windows App SDK
 The [Windows App SDK](https://learn.microsoft.com/windows/apps/windows-app-sdk/) (WinAppSDK) lifts the modern app stack into your specific application and creates its own virtualized instance. If you want to call newer APIs, your app can use a newer WinAppSDK version. All the Microsoft.* APIs are part of the WinAppSDK. In contrast, the Windows.* APIs are part of the Platform SDK installed on a Windows machine. This means that apps using the Platform SDK must keep in mind which versions of Windows their app ships to.
