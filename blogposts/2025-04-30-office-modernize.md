@@ -29,7 +29,7 @@ While WinUI and WPF are great platform choices for C++ and C# developers, Micros
 
 Whatever type of app you have, the platforms are built to work together. For example, React Native uses WinUI under the covers to support many native Windows controls. Below is a screenshot of the React Native Gallery app. [React Native Gallery](https://apps.microsoft.com/detail/9npg0b292h4r?hl=en-us&gl=US) is a React Native application that showcases the current set of supported controls for the platform. In the screenshot, you can see a WinUI3 CalendarView control being hosted within the React Native application. The control seamlessly integrates into the app's UI and has the same look and feel as it would running in a WinUI3 application. Above the CalendarView, a React Native Text component displays the currently selected date in the calendar. Not only can WinUI and React Native content be rendered side by side, app data can flow between the platforms. 
 
-![](assets/2025-04-30-office-modernize/rn-gallery.png)
+![](assets/2025-04-30-office-modernize/rngallery.png)
 
 # Modernizing Office
 There’s a variety of reasons why Office wants to modernize, but the cost of rewriting an entire app would be very expensive. Instead, Office incrementally adopts new UI frameworks for some experiences while leaving others on legacy frameworks. Over the years, Office has integrated several UI frameworks based on specific goals and platform features. In addition to their internal UI, Office uses React Native, WebView2, and WinAppSDK. As mentioned above, these client platforms were designed to work together, which is critical for apps like Office that rely on framework interoperability. 
