@@ -58,12 +58,12 @@ Like other large apps Office needs their dependencies to have a predictable sche
 
 WinAppSDK wants to support large apps picking up updates quickly. To ensure compatibility with the version of WinAppSDK an app has tested against, WinAppSDK also supports specifying which "update version" an app should use. This allows apps like Office to gradually migrate their app suite to a new minor version of WinAppSDK.
 
-![](assets/2025-04-30-office-modernize/release-timeline.jpg)
+![](assets/2025-04-30-office-modernize/release-timeline.png)
 
 ### Installation Flexibility
 WinAppSDK wants to support installation flexibility for large apps like Office. There are currently two ways to ship WinAppSDK: "self-contained" and "framework packages". With the "self-contained" option, apps only ship the components of WinAppSDK that they use. This can be great if you are only planning to use a few components of WinAppSDK, but it will increase your app's distribution size. With the "framework packages" option, your app installs a common package like the VC Runtime. The install is then shared by all apps using the same "significant release" of WinAppSDK. With these two options, Office has the choice to adjust their WinAppSDK installation to fit their app’s needs best.
 
-![](assets/2025-04-30-office-modernize/install-flex.jpg)
+![](assets/2025-04-30-office-modernize/install-flex.png)
 
 ### Using ARM64EC
 Another key factor for Office is ensuring excellent performance on the new ARM64 [Copilot+ PCs](https://learn.microsoft.com/windows/ai/npu-devices/) while also supporting their extensive x64-based 3rd-party extensibility ecosystem. To support this, Windows added a new feature to Windows 11 called ARM64EC (Emulation Compatible). It enables processes to load both ARM64EC and x64 code at the same time. It's different than ARM64 Classic, which is still supported for apps running on Windows 10. WinAppSDK 1.7 will start introducing ARM64EC support.
