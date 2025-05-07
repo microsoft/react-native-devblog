@@ -1,8 +1,8 @@
 ---
 post_title: "How Office Is Modernizing Their App Suite’s UI using Windows App SDK and React Native"
 author1: chiaramooney
-post_slug: 2025-04-30-office-modernize
-post_date: 2025-04-30 12:00:00
+post_slug: 2025-05-09-office-modernize
+post_date: 2025-05-09 12:00:00
 categories: react-native // don't change the category
 tags: office, react-native, conference
 summary: An inside look at how Office has modernized their UI with WinAppSDK and React Native.
@@ -13,7 +13,7 @@ For years, Windows developers have been asking the Microsoft client platform tea
 # Windows App Ecosystem
 If you aren’t familiar with the Windows App Ecosystem, here’s a refresher. The Windows App Ecosystem describes the system of platforms, libraries, and frameworks that are used to build modern Windows apps. At the bottom layer of the ecosystem is the computer itself, which consists of drivers and hardware. Above this layer is the Windows Platform SDK which is determined by the version of the Windows OS installed on the computer. Next is Windows App SDK which provides APIs that are determined by the version of your Windows application. You then have any additional Nuget packages, libraries, or other applications that your app might need. Finally, at the top is the Windows application itself. Apps built in the Windows App Ecosystem may use capabilities exposed at each layer.
 
-![](assets/2025-04-30-office-modernize/winappeco.png)
+![](assets/2025-05-09-office-modernize/winappeco.png)
 
 ## Windows App SDK
 The [Windows App SDK](https://learn.microsoft.com/windows/apps/windows-app-sdk/) (WinAppSDK) lifts the modern app stack into your specific application and creates its own virtualized instance. If you want to call newer APIs, your app can use a newer WinAppSDK version. All the Microsoft.* APIs are part of the WinAppSDK. In contrast, the Windows.* APIs are part of the Platform SDK installed on a Windows machine. This means that apps using the Platform SDK must keep in mind which versions of Windows their app ships to.
@@ -25,14 +25,14 @@ Whether you are building native apps, web apps, or hybrid apps, Microsoft is com
 
 While WinUI and WPF are great platform choices for C++ and C# developers, Microsoft is also invested in supporting JavaScript developers building apps on Windows. For JS developers who want fully native apps, [React Native for Windows](https://learn.microsoft.com/windows/dev-environment/javascript/react-native-for-windows/) is a great option that allows developers to use JS/React skills and tools to develop native cross-plat applications that target desktop, mobile, web, and more. React Native is built on top of Windows App SDK, so developers building apps with React Native still have access to WinUI controls and other key APIs that ship within Windows App SDK. 
 
-![](assets/2025-04-30-office-modernize/msft-plat-invest.png)
+![](assets/2025-05-09-office-modernize/msft-plat-invest.png)
 
 Whatever type of app you have, the platforms are built to work together. For example, React Native uses WinUI under the covers to support many native Windows controls. Below is a screenshot of the React Native Gallery app. [React Native Gallery](https://apps.microsoft.com/detail/9npg0b292h4r?hl=en-us&gl=US) is a React Native application that showcases the current set of supported controls for the platform. In the screenshot, you can see a WinUI3 CalendarView control being hosted within the React Native application. The control seamlessly integrates into the app's UI and has the same look and feel as it would running in a WinUI3 application. Above the CalendarView, a React Native Text component displays the currently selected date in the calendar. Not only can WinUI and React Native content be rendered side by side, app data can flow between the platforms. 
 
-![](assets/2025-04-30-office-modernize/rngallery.png)
+![](assets/2025-05-09-office-modernize/rngallery.png)
 
 # Modernizing Office
-There’s a variety of reasons why Office wants to modernize, but the cost of rewriting an entire app would be very expensive. Instead, Office incrementally adopts new UI frameworks for some experiences while leaving others on legacy frameworks. Over the years, Office has integrated several UI frameworks based on specific goals and platform features. In addition to their internal UI, Office uses React Native, WebView2, and WinAppSDK. As mentioned above, these client platforms were designed to work together, which is critical for apps like Office that rely on framework interoperability. 
+There’s a variety of reasons why Office wants to modernize, but the cost of rewriting an entire app would be very expensive. Instead, Office incrementally adopts new UI frameworks for some experiences while leaving others on legacy frameworks. Over the years, Office has integrated several UI frameworks based on specific goals and platform features. In addition to their internal UI, Office uses React Native, WebView2, and Scene Graph. As mentioned above, these client platforms were designed to work together, which is critical for apps like Office that rely on framework interoperability. 
 
 ## Office using React Native
 Let's first talk about why Office chose to use React Native. Office has hundreds of millions of customers who expect visual consistency across desktop, mobile, and web. Currently, there are over 40 Office experiences which use React Native to build cross-platform features such as Privacy Dialog and Accessibility Assistant. 
@@ -48,7 +48,7 @@ React Native can be embedded into existing Windows applications, which allows ap
 
 Office's new Copilot experience between the Ribbon and document canvas is built using React Native. In the screenshot below, you can see the UI React Native provides feels consistent with the rest of the app. This feature is a great showcase of how Office can incrementally adopt newer UI frameworks like React Native. 
 
-![](assets/2025-04-30-office-modernize/office-word.png)
+![](assets/2025-05-09-office-modernize/office-word.png)
 
 ## Office using Windows App SDK
 Let's now talk about why Office is choosing to use Windows App SDK. Office needs to run on all currently supported Windows devices. Historically, they've relied on Windows Platform SDK for accessing Direct3D, Composition, and Input to render documents at high fidelity with inking and touch support. However, to support multiple versions of Windows, they've had to fork their code. In using Windows App SDK, Office developers can write code once and continue supporting multiple versions of the Windows operating system. 
@@ -56,14 +56,14 @@ Let's now talk about why Office is choosing to use Windows App SDK. Office needs
 ### Consistent Releases
 Like other large apps Office needs their dependencies to have a predictable schedule. WinAppSDK's "significant releases" update twice a year, which is where most new features come in. These are 1.6, 1.7, etc., and they align to the Spring and Fall timeline. WinAppSDK's "update releases" are the dot releases which ship every month. WinAppSDK’s structured release schedule grows Office’s confidence in taking dependency on WinAppSDK.
 
-WinAppSDK wants to support large apps picking up updates quickly. To ensure compatibility with the version of WinAppSDK an app has tested against, WinAppSDK also supports specifying which "update version" an app should use. This allows apps like Office to gradually migrate their app suite to a new minor version of WinAppSDK.
+WinAppSDK was designed to give large apps the ability to upgrade to new versions quickly. To ensure compatibility with the version of WinAppSDK an app has tested against, WinAppSDK also supports specifying which "update version" an app should use. This allows apps like Office to gradually migrate their app suite to a new minor version of WinAppSDK.
 
-![](assets/2025-04-30-office-modernize/release-timeline.png)
+![](assets/2025-05-09-office-modernize/release-timeline.png)
 
 ### Installation Flexibility
 WinAppSDK wants to support installation flexibility for large apps like Office. There are currently two ways to ship WinAppSDK: "self-contained" and "framework packages". With the "self-contained" option, apps only ship the components of WinAppSDK that they use. This can be great if you are only planning to use a few components of WinAppSDK, but it will increase your app's distribution size. With the "framework packages" option, your app installs a common package like the VC Runtime. The install is then shared by all apps using the same "significant release" of WinAppSDK. With these two options, Office has the choice to adjust their WinAppSDK installation to fit their app’s needs best.
 
-![](assets/2025-04-30-office-modernize/install-flex.png)
+![](assets/2025-05-09-office-modernize/install-flex.png)
 
 ### Using ARM64EC
 Another key factor for Office is ensuring excellent performance on the new ARM64 [Copilot+ PCs](https://learn.microsoft.com/windows/ai/npu-devices/) while also supporting their extensive x64-based 3rd-party extensibility ecosystem. To support this, Windows added a new feature to Windows 11 called ARM64EC (Emulation Compatible). It enables processes to load both ARM64EC and x64 code at the same time. It's different than ARM64 Classic, which is still supported for apps running on Windows 10. WinAppSDK 1.7 will start introducing ARM64EC support.
